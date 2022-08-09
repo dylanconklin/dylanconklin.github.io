@@ -1,1 +1,15 @@
-
+$(document).ready(function(){
+    $("#content").load("../html/about.html");
+    $("#about").click(function(){
+        $("#content").load("../html/about.html");
+    });
+    $("#previous").click(function(){
+        $("#content").load("../html/previous.html");
+    });
+    $("#projects").click(function(){
+        $("#content").load("../html/projects.html");
+    });
+    $("#contact").click(function(){
+        $("#content").load("../html/contact.html");
+    });
+});

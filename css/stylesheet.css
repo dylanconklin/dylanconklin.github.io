@@ -1,1 +1,104 @@
+:root {
+    --background:  #282a36;
+    --currentline: #44475a;
+    --selection:   #44475a;
+    --foreground:  #f8f8f2;
+    --comment:     #6272a4;
+    --cyan:        #8be9fd;
+    --green:       #50fa7b;
+    --orange:      #ffb86c;
+    --pink:        #ff79c6;
+    --purple:      #bd93f9;
+    --red:         #ff5555;
+    --yellow:      #f1fa8c;
+}
 
+a {
+    color: var(--green);
+    transition:color .35s;
+    text-decoration:none
+}
+
+a:hover{
+    color: var(--foreground);
+}
+
+body {
+    background-color: var(--currentline);
+    color: var(--foreground);
+}
+
+button {
+    background-color: var(--purple);
+    border: 0px solid black;
+    color: var(--currentline);
+    padding: 1em;
+}
+
+form {
+    margin: 2em auto;
+    width: 15rem;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    clear: both;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    background-color: var(--background);
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.button {
+    border: 1px solid var(--background);
+    border-radius: 2%;
+    color: var(--foreground);
+    height: 35px;
+    width: 49%;
+}
+
+#content {
+    padding: 0 3rem;
+}
+
+#logo {
+    width:15rem;
+    margin: auto 2rem;
+}
+
+#portrait {
+    border:.5rem solid var(--green);
+    border-radius: 20%;
+    display: block;
+    height:15rem;
+    margin: 2em auto;
+    width: 15rem;
+}
+
+#reset {
+    background-color: var(--currentline);
+}
+
+#submit {
+    background-color: var(--background);
+}
+
+#submit:hover, #reset:hover {
+    background-color: var(--comment);
+}

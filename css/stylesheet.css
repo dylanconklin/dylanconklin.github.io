@@ -14,7 +14,7 @@
 }
 
 a {
-    color: var(--green);
+    color: var(--purple);
     transition:color .35s;
     text-decoration:none
 }
@@ -28,26 +28,10 @@ body {
     color: var(--foreground);
 }
 
-button {
-    background-color: var(--purple);
-    border: 0px solid black;
-    color: var(--currentline);
-    padding: 1em;
-}
-
-form {
-    margin: 2em auto;
-    width: 15rem;
-}
-
 h1 {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-}
-
-input {
-    clear: both;
 }
 
 table {
@@ -91,14 +75,47 @@ th {
     width: 15rem;
 }
 
-#reset {
-    background-color: var(--currentline);
+.card-header{
+    background-color: var(--selection);
+    border: 0px solid var(--purple);
+    color: var(--foreground);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.card-body{
+    background-color: var(--selection);
+    border: 0px solid var(--purple);
+    color: var(--foreground);
+    text-align: center;
+}
+.card-footer{
+    background-color: var(--selection);
+    border: 0px solid var(--purple);
+    color: var(--foreground);
+    text-align: center;
 }
 
-#submit {
+.progress-bar {
+    background-color: var(--selection);
+}
+
+.progress-bar-striped {
+    background-color: var(--purple);
+}
+
+.accordion-collapse {
     background-color: var(--background);
 }
 
-#submit:hover, #reset:hover {
-    background-color: var(--comment);
+.accordion-item {
+    border: none;
+    background-color: transparent;
+}
+
+.btn, .btn:hover {
+    border: 0px solid var(--background);
+    color: var(--foreground);
+    background-color: var(--background);
+    text-align: center;
 }

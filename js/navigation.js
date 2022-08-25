@@ -1,31 +1,28 @@
 $(document).ready(function(){
-    let hash = getpage(window.location.hash);
-    loadpage(hash);
-    $("#about").click(function(){
-        $("#content").load("../html/about.html");
-    });
-    $("#previous").click(function(){
-        $("#content").load("../html/previous.html");
-    });
-    $("#table").click(function(){
-        $("#content").load("../html/table.html");
-    });
-    $("#projects").click(function(){
-        $("#content").load("../html/projects.html");
-    });
+    loadPage(window.location.hash);
+    setClickEvents();
 });
 
-function loadpage(hash){
+function loadPage(hash){
+    hash = getHash(hash);
     let htmlpath = "../html/";
-    let content = htmlpath + hash + ".html";
+    let page = hash.substring(1, hash.length);
+    let content = htmlpath + page + ".html";
     $("#content").load(content);
 }
 
-function getpage(hash){
+function getHash(hash){
     if(hash.length == 0){
-        hash = "about";
-    }else{
-        hash = hash.substring(1, hash.length);
+        hash = "#about";
     }
     return hash;
+}
+
+function setClickEvents(){
+    const links = document.querySelectorAll(".nav-link");
+    links.forEach(link => {
+        $(link.attributes.href.value).click(function(){
+            loadPage(link.attributes.href.value);
+        });
+    });
 }

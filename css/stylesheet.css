@@ -14,7 +14,7 @@
 }
 
 a {
-    color: var(--purple);
+    color: var(--green);
     transition:color .35s;
     text-decoration:none
 }
@@ -75,6 +75,12 @@ th {
     width: 15rem;
 }
 
+.card {
+    background-color: transparent;
+    border: 3px solid var(--background);
+    border-radius: 0px;
+}
+
 .card-header{
     background-color: var(--selection);
     border: 0px solid var(--purple);
@@ -97,11 +103,16 @@ th {
 }
 
 .progress-bar {
-    background-color: var(--selection);
+    background-color: var(--background);
 }
 
 .progress-bar-striped {
     background-color: var(--purple);
+}
+
+.accordion {
+    border: 5px solid var(--background);
+    border-radius: 5px;
 }
 
 .accordion-collapse {
@@ -113,9 +124,19 @@ th {
     background-color: transparent;
 }
 
-.btn, .btn:hover {
+.btn, .btn:hover, .btn:focus {
     border: 0px solid var(--background);
+    border-radius: 0px;
     color: var(--foreground);
     background-color: var(--background);
     text-align: center;
+}
+
+.caption {
+    color: var(--foreground);
+    background-color: var(--selection);
+}
+
+.social {
+    color: var(--selection);
 }

@@ -137,6 +137,19 @@ th {
     background-color: var(--selection);
 }
 
-.social {
-    color: var(--selection);
+.social-body {
+    background-color: var(--background);
+}
+
+header, footer {
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.nav-link {
+    color: var(--foreground);
+}
+
+.nav-link:hover {
+    color: var(--green);
 }

@@ -4,16 +4,32 @@ $(document).ready(function(){
 });
 
 function loadPage(hash){
-    hash = getHash(hash);
     let htmlpath = "../html/";
-    let page = hash.substring(1, hash.length);
-    let content = htmlpath + page + ".html";
-    $("#content").load(content);
+    let extension = ".html";
+    hash = getHash(htmlpath, hash, extension);
+    let page = getPage(htmlpath, hash, extension);
+    $("#content").load(page);
 }
 
-function getHash(hash){
+function getPage (htmlpath, hash, extension){
+    return htmlpath + hash.substring(1, hash.length) + extension;
+}
+
+function getHash(htmlpath, hash, extension){
     if(hash.length == 0){
         hash = "#about";
+    }else{
+        var result = null;
+        var filePath = getPage(htmlpath, hash, extension);
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open("GET", filePath, false);
+        xmlhttp.send();
+        if (xmlhttp.status == 200) {
+            result = xmlhttp.responseText;
+        }
+        if (result == null) {
+            hash = "#missing";
+        }
     }
     return hash;
 }

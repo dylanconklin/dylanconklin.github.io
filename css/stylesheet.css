@@ -28,26 +28,10 @@ body {
     color: var(--foreground);
 }
 
-button {
-    background-color: var(--purple);
-    border: 0px solid black;
-    color: var(--currentline);
-    padding: 1em;
-}
-
-form {
-    margin: 2em auto;
-    width: 15rem;
-}
-
 h1 {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-}
-
-input {
-    clear: both;
 }
 
 table {
@@ -91,14 +75,81 @@ th {
     width: 15rem;
 }
 
-#reset {
-    background-color: var(--currentline);
+.card {
+    background-color: transparent;
+    border: 3px solid var(--background);
+    border-radius: 0px;
 }
 
-#submit {
+.card-header{
+    background-color: var(--selection);
+    border: 0px solid var(--purple);
+    color: var(--foreground);
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+.card-body{
+    background-color: var(--selection);
+    border: 0px solid var(--purple);
+    color: var(--foreground);
+    text-align: center;
+}
+.card-footer{
+    background-color: var(--selection);
+    border: 0px solid var(--purple);
+    color: var(--foreground);
+    text-align: center;
+}
+
+.progress-bar {
     background-color: var(--background);
 }
 
-#submit:hover, #reset:hover {
-    background-color: var(--comment);
+.progress-bar-striped {
+    background-color: var(--purple);
+}
+
+.accordion {
+    border: 5px solid var(--background);
+    border-radius: 5px;
+}
+
+.accordion-collapse {
+    background-color: var(--background);
+}
+
+.accordion-item {
+    border: none;
+    background-color: transparent;
+}
+
+.btn, .btn:hover, .btn:focus {
+    border: 0px solid var(--background);
+    border-radius: 0px;
+    color: var(--foreground);
+    background-color: var(--background);
+    text-align: center;
+}
+
+.caption {
+    color: var(--foreground);
+    background-color: var(--selection);
+}
+
+.social-body {
+    background-color: var(--background);
+}
+
+header, footer {
+    background-color: var(--background);
+    color: var(--foreground);
+}
+
+.nav-link {
+    color: var(--foreground);
+}
+
+.nav-link:hover {
+    color: var(--green);
 }

@@ -1,9 +1,9 @@
 :root {
-    --foreground:     #463f3f;
-    --background:     #2e2524;
-    --foregroundtext: #e2e1e1;
-    --backgroundtext: #aeacac;
-    --navbar:         #3e3939;
+    --foreground:     #EF8354;
+    --background:     #4F5D75;
+    --foregroundtext: #FFFFFF;
+    --backgroundtext: #BFC0C0;
+    --navbar:         #2D3142;
 }
 
 a {
@@ -62,10 +62,7 @@ th {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#content {
-    padding: 0 3rem;
+    text-align: center;
 }
 
 #logo {
@@ -79,31 +76,6 @@ th {
     height:15rem;
     margin: 2em auto;
     width: 15rem;
-}
-
-.accordion {
-}
-
-.accordion-collapse {
-    background-color: var(--foreground);
-    border-radius: 5px;
-}
-
-.accordion-item {
-    border: none;
-    background-color: transparent;
-}
-
-.btn, .btn:hover, .btn:focus {
-    color: var(--foregroundtext);
-    background-color: var(--foreground);
-    text-align: center;
-}
-
-.button {
-    /* border-radius: 2%; */
-    height: 35px;
-    width: 49%;
 }
 
 .caption {
@@ -128,7 +100,6 @@ th {
 .card-body{
     background-color: transparent;
     border: 0;
-    text-align: center;
 }
 .card-footer{
     background-color: transparent;
@@ -151,4 +122,23 @@ th {
 }
 
 .social-body {
+}
+
+.icon {
+    color: var(--foregroundtext);
+}
+
+.dropdown-menu {
+    background-color: var(--navbar);
+}
+
+.dropdown-item {
+    background-color: var(--navbar);
+    color: var(--backgroundtext);
+    text-align: center;
+}
+
+.dropdown-item:hover {
+    background-color: var(--navbar);
+    color: var(--foregroundtext);
 }

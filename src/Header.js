@@ -1,11 +1,13 @@
 export default function Header() {
     return (
         <>
-            <header className="navbar navbar-default navbar-expand-md text-center navbar-static-top">
-                <span className="navbar-brand" href="#">
-                    <img id="logo" alt="logo with the text 'Dylan Conklin'" src="./images/name.svg" />
+            <header className="navbar navbar-default navbar-expand-sm text-center navbar-static-top">
+                <span className="navbar-brand mx-3" href="#">
+                    <a className="nav-link" target="_self" onClick={() => reload('#about')}>
+                        Dylan Conklin
+                    </a>
                 </span>
-                <div className="navbar-collapse">
+                <div className="navbar-collapse mx-3">
                     <ul className="navbar-nav me-auto"></ul>
                     <ul className="navbar-nav">
                         <li className="nav-item">

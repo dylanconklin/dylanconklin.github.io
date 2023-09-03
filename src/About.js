@@ -1,19 +1,17 @@
-function Card({ title, link, image, caption, description }) {
+function Card({ title, page, github, image, caption, description }) {
     return (
         <>
             <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-4 center">
-                        <a href={link} target="_blank" rel="noreferrer">
+                        <a href={page} target="_blank" rel="noreferrer">
                             <img className="shadow-lg" id="app-logo" src={image} />
                         </a>
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
                             <h2 className="card-title">
-                                <a href={link} target="_blank" rel="noreferrer">
-                                    {title}
-                                </a>
+                                {title}
                             </h2>
                             <div className="caption">
                                 {caption}
@@ -22,6 +20,17 @@ function Card({ title, link, image, caption, description }) {
                             <p className="card-text">
                                 {description}
                             </p>
+                            {/* <a href={page} target="_blank" rel="noreferrer">
+                                <button type="button" className="btn btn-primary m-1">
+                                    Learn more
+                                </button>
+                            </a> */}
+                            <a href={github} target="_blank" rel="noreferrer">
+                                {/* <button type="button" className="btn btn-secondary m-1"> */}
+                                <button type="button" className="btn btn-primary m-1">
+                                    <i className="fa-brands fa-github" /> View on Github
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -60,31 +69,35 @@ export default function About() {
             <hr />
             <Card
                 title="Adjacency Table"
-                link="https://github.com/dylanconklin/Adjacency-Table"
+                page=""
+                github="https://github.com/dylanconklin/Adjacency-Table"
                 image="images/adjacency-table-builder-logo.jpg"
                 caption="Swift, SwiftUI"
-                description="Adjacency Table is a program that generates an adjacency table based on data. The data contains a name to indicate any given point on a map, another name to indicate another point on a map, and a distance between the two points."
+                description="This powerful tool generates an adjacency table based on your data, which includes the names of various points on a map and their respective distances. With GraphApp, you can easily visualize and analyze the connections between different locations. Try it today and see how it can simplify your workflow."
             />
             <Card
                 title="GameRank"
-                link="https://github.com/dylanconklin/"
+                page=""
+                github="https://github.com/dylanconklin/"
                 image="images/gamerank-logo.jpg"
                 caption="Swift, SwiftUI, SQL, PostgreSQL"
-                description="Pick 'em style football game, with information about the league, including standings, scores, and schedules."
+                description="Experience the thrill of the football season with our brand new pick 'em style game! Stay up-to-date with the latest league standings, scores, and schedules, and put your knowledge to the test by picking the winning teams and competing against your loved ones. This exciting game is the perfect way to get involved in the football season and showcase your skills. Don't let this chance slip away and get ready to win big!"
             />
             <Card
                 title="Number Converter"
-                link="https://github.com/dylanconklin/Number-Converter"
+                page=""
+                github="https://github.com/dylanconklin/Number-Converter"
                 image="images/number-converter-logo.jpg"
                 caption="Swift, SwiftUI"
-                description="Number Converter is an app that allows you to put in a value, select the base to use, and prints out the number in the new base."
+                description="With Number Converter, you can easily convert any value to a new base of your choice. Simply input the value, select the base, and the app will do the rest. It's a quick, easy, and convenient way to convert numeric values of any type."
             />
             <Card
                 title="Word Games"
-                link="https://github.com/dylanconklin/WordGames"
+                page=""
+                github="https://github.com/dylanconklin/WordGames"
                 image="images/wordgames-logo.jpg"
                 caption="Swift, SwiftUI"
-                description="Wordle clone for iOS, with large dictionary and custom word lengths, from 1 to 22."
+                description="WordGames is a must-have for word game enthusiasts. With a wide-ranging dictionary and adjustable word lengths from 1 to 22, this Wordle clone is designed to both entertain and educate. Be sure to add this app to your collection today and let the word games begin!"
             />
             <div className="card mb-3">
                 <div className="row g-0">
@@ -107,7 +120,7 @@ export default function About() {
                             </div>
                             <br />
                             <p className="card-text">
-                                Anonymous feedback system with optional anonymous chat for ongoing communication.
+                                SAFE is an anonymous feedback system with optional chat for ongoing communication. With SAFE, you can share your thoughts, ideas, and concerns without fear of judgment or retaliation. SAFE allows for honest and secure communication, helping to improve safety and productivity.
                             </p>
                         </div>
                     </div>

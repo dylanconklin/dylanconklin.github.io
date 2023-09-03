@@ -1,5 +1,5 @@
 :root {
-  --foreground:     #EF8354;
+  /* --foreground:     #177E89; */
   --background:     #4F5D75;
   --foregroundtext: #FFFFFF;
   --backgroundtext: #BFC0C0;
@@ -140,5 +140,44 @@ th {
 
 .dropdown-item:hover {
   background-color: var(--navbar);
+  color: var(--foregroundtext);
+}
+
+.btn, .btn:focus {
+  border: none;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: var(--navbar);
+  border: 3px solid var(--navbar);
+  color: var(--foregroundtext);
+}
+
+.btn-primary:hover {
+  background-color: var(--backgroundtext);
+  border: 3px solid var(--backgroundtext);
+  color: var(--background);
+}
+
+.btn-secondary {
+  background-color: var(--background);
+  border: 3px solid var(--backgroundtext);
+  color: var(--backgroundtext);
+}
+
+.btn-secondary:hover {
+  background-color: var(--backgroundtext);
+  border: 3px solid var(--backgroundtext);
+  color: var(--background);
+}
+
+.button {
+  /* border-radius: 2%; */
+  height: 35px;
+  width: 49%;
+}
+
+.navbar-brand {
   color: var(--foregroundtext);
 }

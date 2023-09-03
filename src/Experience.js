@@ -1,4 +1,4 @@
-function Education({ school, degree, year }) {
+function Education_old({ school, degree, year }) {
     return (
         <>
             <div className="card mb-3 center">
@@ -14,6 +14,60 @@ function Education({ school, degree, year }) {
                             </div>
                             <p className="card-text">
                                 {year}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+function Education({ school, degree, year }) {
+    return (
+        <>
+            <div className="card mb-3">
+                <div className="row g-0">
+                    <div className="col-md-4 center">
+                        <i className="fa-solid fa-graduation-cap fa-5x icon center"></i>
+                    </div>
+                    <div className="col-md-8">
+                        <div className="card-body">
+                            <h2 className="card-title">
+                                {school}
+                            </h2>
+                            <div className="caption">
+                                {degree}
+                            </div>
+                            <p className="card-text">
+                                {year}
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+function Certification({ cert, type, label }) {
+    var label = label + " fa-5x icon"
+    return (
+        <>
+            <div className="card mb-3">
+                <div className="row g-0">
+                    <div className="col-md-4 center">
+                        <i className={label} />
+                    </div>
+                    <div className="col-md-8">
+                        <div className="card-body">
+                            <h2 className="card-title">
+                                {cert}
+                            </h2>
+                            <div className="caption">
+                                {type}
+                            </div>
+                            <p className="card-text">
                             </p>
                         </div>
                     </div>
@@ -39,12 +93,49 @@ function TechSkill({ skill, label }) {
 export default function Experience() {
     return (
         <>
-            <h1 className="m-5">Education</h1>
-            <Education
-                school="Portland State University"
-                degree="Bachelor of Science, Computer Science"
-                year="2023"
-            />
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <h1 className="m-5">Education</h1>
+                        <Education
+                            school="Portland State University"
+                            degree="Bachelor of Science, Computer Science"
+                            year="2023"
+                        />
+                        <Education
+                            school="Portland Community College"
+                            degree="Associate of Arts"
+                            year="2021"
+                        />
+                    </div>
+                    <div className="col">
+                        <h1 className="m-5">Certifications</h1>
+                        <div className="container">
+                            <div className="row">
+                                <Certification
+                                    cert="Microsoft Office Specialist"
+                                    type="PowerPoint"
+                                    label="fa-brands fa-microsoft"
+                                />
+                            </div>
+                            <div className="row">
+                                <Certification
+                                    cert="Microsoft Technology Associate"
+                                    type="HTML5 Application Development Fundamentals"
+                                    label="fa-solid fa-code"
+                                />
+                            </div>
+                            <div className="row">
+                                <Certification
+                                    cert="CompTIA"
+                                    type="IT Fundamentals"
+                                    label="fa-solid fa-microchip"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <h1 className="m-5">Tech Skills</h1>
             <div className="container text-center">
                 <div className="row">
@@ -80,156 +171,141 @@ export default function Experience() {
                     />
                 </div>
             </div>
-            <h1 className="m-5">Certifications</h1>
-            <div className="container text-center">
-                <div className="row">
-                    <TechSkill
-                        skill="Microsoft Office Specialist - PowerPoint"
-                        label="fa-brands fa-microsoft"
-                    />
-                    <TechSkill
-                        skill="Microsoft Technology Associate - HTML5 Application Development Fundamentals"
-                        label="fa-solid fa-code"
-                    />
-                    <TechSkill
-                        skill="CompTIA IT Fundamentals"
-                        label="fa-solid fa-microchip"
-                    />
-                </div>
-            </div>
             <h1 className="m-5">Work Experience</h1>
-            <div className="card mb-3">
-                <div className="row g-0">
-                    <div className="col-md-4">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Student Software Developer
-                            </h2>
-                            <div className="caption">
-                                Portland State University
+            <div className="mx-5 px-5">
+                <div className="card mb-3">
+                    <div className="row g-0">
+                        <div className="col-md-4">
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    Student Software Developer
+                                </h2>
+                                <div className="caption">
+                                    Portland State University
+                                </div>
+                                <p className="card-text">
+                                    January 2023 - June 2023
+                                </p>
                             </div>
-                            <p className="card-text">
-                                January 2023 - June 2023
-                            </p>
                         </div>
-                    </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Responsibilites
-                            </h2>
-                            <div className="caption">
-                            </div>
-                            <div className="card-text">
-                                <ul>
-                                    <li>Implemented backend code, including:</li>
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    Responsibilites
+                                </h2>
+                                <div className="caption">
+                                </div>
+                                <div className="card-text">
                                     <ul>
-                                        <li>Unique code generation class</li>
-                                        <li>Feedback filtering and sanitation</li>
+                                        <li>Implemented backend code, including:</li>
                                         <ul>
-                                            <li>Filter out vulgar language</li>
-                                            <li>Filter out invalid characters</li>
-                                            <li>Prevent SQL injection</li>
+                                            <li>Unique code generation class</li>
+                                            <li>Feedback filtering and sanitation</li>
+                                            <ul>
+                                                <li>Filter out vulgar language</li>
+                                                <li>Filter out invalid characters</li>
+                                                <li>Prevent SQL injection</li>
+                                            </ul>
+                                            <li>Sentiment analysis</li>
                                         </ul>
-                                        <li>Sentiment analysis</li>
-                                    </ul>
-                                    <li>Implemented and tested server endpoints</li>
-                                    <li>Wrote tests for code generating and input verification functions using the Jest testing suite for React</li>
-                                    <li>Worked with UI team to ensure backend compatibility with frontend web components and forms</li>
-                                    <li>Managed development branches using Git, including branching, merging, and pull requests</li>
-                                    <li>Participated in team code reviews via GitHub</li>
-                                    <li>Wrote documentation for technical documents including:</li>
-                                    <ul>
-                                        <li>Details of implementation</li>
-                                        <li>Logical reasoning behind implementation decisions</li>
-                                        <li>Theoretical limits of the software, and measures taken to prevent the theoretical limits from taking place</li>
+                                        <li>Implemented and tested server endpoints</li>
+                                        <li>Wrote tests for code generating and input verification functions using the Jest testing suite for React</li>
+                                        <li>Worked with UI team to ensure backend compatibility with frontend web components and forms</li>
+                                        <li>Managed development branches using Git, including branching, merging, and pull requests</li>
+                                        <li>Participated in team code reviews via GitHub</li>
+                                        <li>Wrote documentation for technical documents including:</li>
                                         <ul>
-                                            <li>Limited number of unique codes; time limited codes</li>
+                                            <li>Details of implementation</li>
+                                            <li>Logical reasoning behind implementation decisions</li>
+                                            <li>Theoretical limits of the software, and measures taken to prevent the theoretical limits from taking place</li>
+                                            <ul>
+                                                <li>Limited number of unique codes; time limited codes</li>
+                                            </ul>
                                         </ul>
-                                    </ul>
-                                    <li>Presented the final product to the client</li>
+                                        <li>Presented the final product to the client</li>
 
-                                </ul>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="card mb-3">
-                <div className="row g-0">
-                    <div className="col-md-4">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Academic Tutor
-                            </h2>
-                            <div className="caption">
-                                Tigard High School
+                <div className="card mb-3">
+                    <div className="row g-0">
+                        <div className="col-md-4">
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    Academic Tutor
+                                </h2>
+                                <div className="caption">
+                                    Tigard High School
+                                </div>
+                                <p className="card-text">
+                                    February 2017 - June 2017
+                                </p>
                             </div>
-                            <p className="card-text">
-                                February 2017 - June 2017
-                            </p>
                         </div>
-                    </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Responsibilites
-                            </h2>
-                            <div className="caption">
-                            </div>
-                            <div className="card-text">
-                                <ul>
-                                    <li>Assist students in:</li>
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    Responsibilites
+                                </h2>
+                                <div className="caption">
+                                </div>
+                                <div className="card-text">
                                     <ul>
-                                        <li>working through course material</li>
-                                        <li>project planning</li>
-                                        <li>writing and executing code</li>
+                                        <li>Assist students in:</li>
+                                        <ul>
+                                            <li>working through course material</li>
+                                            <li>project planning</li>
+                                            <li>writing and executing code</li>
+                                        </ul>
+                                        <li>Give constructive feedback to students</li>
+                                        <li>Keep students engaged with coursework</li>
+                                        <li>Assist with grading and evaluating projects</li>
                                     </ul>
-                                    <li>Give constructive feedback to students</li>
-                                    <li>Keep students engaged with coursework</li>
-                                    <li>Assist with grading and evaluating projects</li>
-                                </ul>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="card mb-3">
-                <div className="row g-0">
-                    <div className="col-md-4">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Sales Representative
-                            </h2>
-                            <div className="caption">
-                                The Wireless Stores / T-Mobile
+                <div className="card mb-3">
+                    <div className="row g-0">
+                        <div className="col-md-4">
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    Sales Representative
+                                </h2>
+                                <div className="caption">
+                                    The Wireless Stores / T-Mobile
+                                </div>
+                                <p className="card-text">
+                                    November 2016 - February 2017
+                                </p>
                             </div>
-                            <p className="card-text">
-                                November 2016 - February 2017
-                            </p>
                         </div>
-                    </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Responsibilites
-                            </h2>
-                            <div className="caption">
-                            </div>
-                            <div className="card-text">
-                                <ul>
-                                    <li>Assist customer with:</li>
+                        <div className="col-md-8">
+                            <div className="card-body">
+                                <h2 className="card-title">
+                                    Responsibilites
+                                </h2>
+                                <div className="caption">
+                                </div>
+                                <div className="card-text">
                                     <ul>
-                                        <li>managing their account</li>
-                                        <li>troubleshooting devices</li>
-                                        <li>setting up new devices and transferring user data</li>
+                                        <li>Assist customer with:</li>
+                                        <ul>
+                                            <li>managing their account</li>
+                                            <li>troubleshooting devices</li>
+                                            <li>setting up new devices and transferring user data</li>
+                                        </ul>
+                                        <li>Pitch plans and devices to customers</li>
+                                        <li>Resolve software issues</li>
+                                        <li>Answer questions about coverage, plans, devices, and accessories</li>
+                                        <li>Follow up with customers after their visit</li>
+                                        <li>Log sales and inventory</li>
                                     </ul>
-                                    <li>Pitch plans and devices to customers</li>
-                                    <li>Resolve software issues</li>
-                                    <li>Answer questions about coverage, plans, devices, and accessories</li>
-                                    <li>Follow up with customers after their visit</li>
-                                    <li>Log sales and inventory</li>
-                                </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

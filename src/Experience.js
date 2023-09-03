@@ -169,6 +169,10 @@ export default function Experience() {
                         skill="Javascript / Typescript"
                         label="fa-brands fa-square-js"
                     />
+                    <TechSkill
+                        skill="React"
+                        label="fa-brands fa-react"
+                    />
                 </div>
             </div>
             <h1 className="m-5">Work Experience</h1>

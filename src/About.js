@@ -1,4 +1,4 @@
-function Card({ title, page, github, image, caption, description }) {
+function AppCard({ title, page, github, image, caption, description }) {
     return (
         <>
             <div className="card mb-3">
@@ -67,7 +67,7 @@ export default function About() {
                 </div>
             </div>
             <hr />
-            <Card
+            <AppCard
                 title="Adjacency Table"
                 page=""
                 github="https://github.com/dylanconklin/Adjacency-Table"
@@ -75,7 +75,7 @@ export default function About() {
                 caption="Swift, SwiftUI"
                 description="This powerful tool generates an adjacency table based on your data, which includes the names of various points on a map and their respective distances. With GraphApp, you can easily visualize and analyze the connections between different locations. Try it today and see how it can simplify your workflow."
             />
-            <Card
+            <AppCard
                 title="GameRank"
                 page=""
                 github="https://github.com/dylanconklin/"
@@ -83,7 +83,7 @@ export default function About() {
                 caption="Swift, SwiftUI, SQL, PostgreSQL"
                 description="Experience the thrill of the football season with our brand new pick 'em style game! Stay up-to-date with the latest league standings, scores, and schedules, and put your knowledge to the test by picking the winning teams and competing against your loved ones. This exciting game is the perfect way to get involved in the football season and showcase your skills. Don't let this chance slip away and get ready to win big!"
             />
-            <Card
+            <AppCard
                 title="Number Converter"
                 page=""
                 github="https://github.com/dylanconklin/Number-Converter"
@@ -91,7 +91,7 @@ export default function About() {
                 caption="Swift, SwiftUI"
                 description="With Number Converter, you can easily convert any value to a new base of your choice. Simply input the value, select the base, and the app will do the rest. It's a quick, easy, and convenient way to convert numeric values of any type."
             />
-            <Card
+            <AppCard
                 title="Word Games"
                 page=""
                 github="https://github.com/dylanconklin/WordGames"

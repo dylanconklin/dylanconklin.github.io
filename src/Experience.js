@@ -1,33 +1,43 @@
-function Job({ position, employer, time, label, responsibilities }) {
-    var label = label + " fa-5x icon"
+function List({ items }) {
+    var list = items.array.forEach(element => {
+
+        console.log(element);
+    });
     return (
         <>
-            <div className="card mb-3">
+            <ul>
+                {list}
+            </ul>
+        </>
+    )
+}
+
+function Job({ position, employer, time, label, responsibilities }) {
+    var label = label + " fa-5x icon center"
+    return (
+        <>
+            <div className="card m-3">
                 <div className="row g-0">
-                    <div className="col-md-4">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                {position}
-                            </h2>
-                            <div className="caption">
-                                {employer}
-                            </div>
-                            <p className="card-text">
-                                {time}
-                            </p>
+                    <div className="card-body col-md-4">
+                        <i className={label} />
+                        <br />
+                        <h2 className="card-title">
+                            {position}
+                        </h2>
+                        <div className="caption">
+                            {employer}
                         </div>
+                        <p className="card-text">
+                            {time}
+                        </p>
                     </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                Responsibilites
-                            </h2>
-                            <div className="caption">
-                            </div>
-                            <div className="card-text">
-                                {responsibilities}
-                            </div>
-                        </div>
+                    <div className="card-body col-md-8 box">
+                        <h2 className="card-title">
+                            Responsibilities
+                        </h2>
+                        <p className="card-text">
+                            {responsibilities}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -40,21 +50,19 @@ function Education({ school, degree, year }) {
         <>
             <div className="card mb-3">
                 <div className="row g-0">
-                    <div className="col-md-4 center">
+                    <div className="col-md-4 p-3 center">
                         <i className="fa-solid fa-graduation-cap fa-5x icon center"></i>
                     </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                {school}
-                            </h2>
-                            <div className="caption">
-                                {degree}
-                            </div>
-                            <p className="card-text">
-                                {year}
-                            </p>
+                    <div className="card-body col-md-8 box">
+                        <h2 className="card-title">
+                            {school}
+                        </h2>
+                        <div className="caption">
+                            {degree}
                         </div>
+                        <p className="card-text">
+                            {year}
+                        </p>
                     </div>
                 </div>
             </div>
@@ -68,20 +76,18 @@ function Certification({ cert, type, label }) {
         <>
             <div className="card mb-3">
                 <div className="row g-0">
-                    <div className="col-md-4 center">
+                    <div className="col-md-4 p-3 center">
                         <i className={label} />
                     </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                {cert}
-                            </h2>
-                            <div className="caption">
-                                {type}
-                            </div>
-                            <p className="card-text">
-                            </p>
+                    <div className="card-body col-md-8 box">
+                        <h2 className="card-title">
+                            {cert}
+                        </h2>
+                        <div className="caption">
+                            {type}
                         </div>
+                        <p className="card-text">
+                        </p>
                     </div>
                 </div>
             </div>
@@ -229,6 +235,7 @@ export default function Experience() {
                     position="Academic Tutor"
                     employer="Tigard High School"
                     time="February 2017 - June 2017"
+                    label="fa-solid fa-user-graduate"
                     responsibilities={<>
                         <ul>
                             <li>Assist students in:</li>
@@ -247,6 +254,7 @@ export default function Experience() {
                     position="Sales Representative"
                     employer="The Wireless Stores / T - Mobile"
                     time="November 2016 - February 2017"
+                    label="fa-solid fa-users"
                     responsibilities={<>
                         <ul>
                             <li>Assist customer with:</li>

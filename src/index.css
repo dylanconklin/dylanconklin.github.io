@@ -1,24 +1,25 @@
 :root {
-  /* --foreground:     #177E89; */
-  --background:     #4F5D75;
-  --foregroundtext: #FFFFFF;
-  --backgroundtext: #BFC0C0;
   --navbar:         #2D3142;
+  --background:     #4F5D75;
+  --foreground:     #2D3142;
+  --primaryText:    #FFFFFF;
+  --secondaryText:  #BFC0C0;
+  --altText:        #EF8354;
 }
 
 a {
-  color: var(--foregroundtext);
+  color: var(--primaryText);
   transition:color .35s;
   text-decoration: none
 }
 
 a:hover{
-  color: var(--backgroundtext);
+  color: var(--secondaryText);
 }
 
 body {
   background-color: var(--background);
-  color: var(--foregroundtext);
+  color: var(--primaryText);
 }
 
 h1 {
@@ -80,13 +81,13 @@ th {
 
 .caption {
   background-color: transparent;
-  color: var(--backgroundtext);
+  color: var(--secondaryText);
 }
 
 .card {
   background-color: transparent;
   border: 0;
-  color: var(--foregroundtext);
+  color: var(--primaryText);
   /* border-radius: 10px; */
 }
 
@@ -108,11 +109,11 @@ th {
 }
 
 .nav-link {
-  color: var(--backgroundtext);
+  color: var(--primaryText);
 }
 
 .nav-link:hover {
-  color: var(--foregroundtext);
+  color: var(--secondaryText);
 }
 
 .progress-bar {
@@ -125,7 +126,7 @@ th {
 }
 
 .icon {
-  color: var(--foregroundtext);
+  color: var(--primaryText);
 }
 
 .dropdown-menu {
@@ -134,13 +135,13 @@ th {
 
 .dropdown-item {
   background-color: var(--navbar);
-  color: var(--backgroundtext);
+  color: var(--primaryText);
   text-align: center;
 }
 
 .dropdown-item:hover {
   background-color: var(--navbar);
-  color: var(--foregroundtext);
+  color: var(--secondaryText);
 }
 
 .btn, .btn:focus {
@@ -149,35 +150,39 @@ th {
 }
 
 .btn-primary {
-  background-color: var(--navbar);
-  border: 3px solid var(--navbar);
-  color: var(--foregroundtext);
+  background-color: var(--altText);
+  border: 3px solid var(--altText);
+  color: var(--primaryText);
 }
 
 .btn-primary:hover {
-  background-color: var(--backgroundtext);
-  border: 3px solid var(--backgroundtext);
-  color: var(--background);
+  background-color: var(--background);
+  border: 3px solid var(--background);
+  color: var(--primaryText);
 }
 
 .btn-secondary {
   background-color: var(--background);
-  border: 3px solid var(--backgroundtext);
-  color: var(--backgroundtext);
+  border: 3px solid var(--secondaryText);
+  color: var(--secondaryText);
 }
 
 .btn-secondary:hover {
-  background-color: var(--backgroundtext);
-  border: 3px solid var(--backgroundtext);
+  background-color: var(--secondaryText);
+  border: 3px solid var(--secondaryText);
   color: var(--background);
 }
 
 .button {
-  /* border-radius: 2%; */
   height: 35px;
   width: 49%;
 }
 
 .navbar-brand {
-  color: var(--foregroundtext);
+  color: var(--primaryText);
+}
+
+.box {
+  background-color: var(--foreground);
+  border-radius: 10px;
 }

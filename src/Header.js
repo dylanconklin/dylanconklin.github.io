@@ -32,38 +32,6 @@ export default function Header() {
                                 </li>
                             </ul>
                         </li>
-                        {/* <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Projects
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                SAFE
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                GameRank
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                Adjacency Table
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                Number Converter
-                            </a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">
-                                Word Games
-                            </a>
-                        </li>
-                    </ul>
-                </li> */}
                         <li className="nav-item">
                             <a className="nav-link" target="_self" onClick={() => reload('#experience')}>
                                 Experience

@@ -1,10 +1,8 @@
 import About from './About';
 import Experience from './Experience';
-import AppDetails from './AppDetails';
-import Missing from './Missing';
 
 export default function Content(page) {
-    let content = <Missing />;
+    let content = <About />;
     if (page.page == "") {
         content = <About />
     } else if (page.page == "#about") {

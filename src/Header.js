@@ -30,6 +30,16 @@ export default function Header() {
                                         LinkedIn
                                     </a>
                                 </li>
+                                <li>
+                                    <a className="dropdown-item" href="https://forms.gle/wAZ27RB7i295UK2K7">
+                                        Contact Form
+                                    </a>
+                                </li>
+                                <li>
+                                    <a className="dropdown-item" href="https://dylanconklin.youcanbook.me">
+                                        Schedule Meeting
+                                    </a>
+                                </li>
                             </ul>
                         </li>
                         <li className="nav-item">

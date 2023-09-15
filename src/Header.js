@@ -31,12 +31,12 @@ export default function Header() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" href="https://forms.gle/wAZ27RB7i295UK2K7">
+                                    <a className="dropdown-item" href="https://forms.gle/wAZ27RB7i295UK2K7" target="_blank">
                                         Contact Form
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" href="https://dylanconklin.youcanbook.me">
+                                    <a className="dropdown-item" href="https://dylanconklin.youcanbook.me" target="_blank">
                                         Schedule Meeting
                                     </a>
                                 </li>

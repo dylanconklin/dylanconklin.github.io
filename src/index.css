@@ -104,11 +104,6 @@ footer {
   color: var(--background);
 }
 
-.button {
-  height: 35px;
-  width: 49%;
-}
-
 .box {
   background-color: var(--foreground);
   border-radius: 10px;

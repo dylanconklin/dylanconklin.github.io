@@ -1,5 +1,4 @@
 :root {
-  --navbar:         #2D3142;
   --background:     #4F5D75;
   --foreground:     #2D3142;
   --primaryText:    #FFFFFF;
@@ -10,10 +9,9 @@
 a {
   color: var(--primaryText);
   transition:color .35s;
-  text-decoration: none
 }
 
-a:hover{
+a:hover, .btn-secondary, .dropdown-item:hover, .nav-link:hover, .secondaryText {
   color: var(--secondaryText);
 }
 
@@ -22,27 +20,13 @@ body {
   color: var(--primaryText);
 }
 
-header, footer {
-  background-color: var(--navbar);
+header, footer, .dropdown-menu {
+  background-color: var(--foreground);
 }
 
 footer {
   position: absolute;
   bottom: 0;
-}
-
-table {
-  margin: 0 auto;
-}
-
-td {
-  padding: 5px;
-}
-
-th {
-  text-align: center;
-  font-size: 2em;
-  padding: 1em;
 }
 
 #app-logo {
@@ -73,41 +57,23 @@ th {
   width: 15rem;
 }
 
-.caption {
-  background-color: transparent;
-  color: var(--secondaryText);
-}
-
 .card {
   background-color: transparent;
   border: 0;
 }
 
-.nav-link {
+.nav-link, .icon {
   color: var(--primaryText);
-}
-
-.nav-link:hover {
-  color: var(--secondaryText);
-}
-
-.icon {
-  color: var(--primaryText);
-}
-
-.dropdown-menu {
-  background-color: var(--navbar);
 }
 
 .dropdown-item {
-  background-color: var(--navbar);
+  background-color: var(--foreground);
   color: var(--primaryText);
   text-align: center;
 }
 
 .dropdown-item:hover {
-  background-color: var(--navbar);
-  color: var(--secondaryText);
+  background-color: var(--foreground);
 }
 
 .btn, .btn:focus {
@@ -130,7 +96,6 @@ th {
 .btn-secondary {
   background-color: var(--background);
   border: 3px solid var(--secondaryText);
-  color: var(--secondaryText);
 }
 
 .btn-secondary:hover {
@@ -142,10 +107,6 @@ th {
 .button {
   height: 35px;
   width: 49%;
-}
-
-.navbar-brand {
-  color: var(--primaryText);
 }
 
 .box {

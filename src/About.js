@@ -33,7 +33,7 @@ function AppCard({ title, github, page, image, caption, description }) {
                             <h2 className="card-title">
                                 {title}
                             </h2>
-                            <div className="caption">
+                            <div className="secondaryText">
                                 {caption}
                             </div>
                             <br />
@@ -70,7 +70,7 @@ export default function About() {
                             <h2 className="card-title">
                                 About Me
                             </h2>
-                            <div className="caption">
+                            <div className="secondaryText">
                                 Seeking iOS Developer position
                             </div>
                             <br />

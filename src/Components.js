@@ -11,7 +11,7 @@ function Certification({ cert, type, label }) {
                         <h2 className="card-title">
                             {cert}
                         </h2>
-                        <div className="caption">
+                        <div className="secondaryText">
                             {type}
                         </div>
                         <p className="card-text">
@@ -35,7 +35,7 @@ function Education({ school, degree, year }) {
                         <h2 className="card-title">
                             {school}
                         </h2>
-                        <div className="caption">
+                        <div className="secondaryText">
                             {degree}
                         </div>
                         <p className="card-text">
@@ -70,7 +70,7 @@ function Job({ position, employer, time, label, responsibilities }) {
                         <h2 className="card-title">
                             {position}
                         </h2>
-                        <div className="caption">
+                        <div className="secondaryText">
                             {employer}
                         </div>
                         <p className="card-text">

@@ -194,7 +194,7 @@ export default function Experience() {
                 </div>
             </div>
             <h1 className="m-5">Work Experience</h1>
-            <div className="mx-5 px-5">
+            <div className="px-3">
                 <Job
                     position="Student Software Developer"
                     employer="Portland State University"

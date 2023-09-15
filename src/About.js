@@ -26,9 +26,7 @@ function AppCard({ title, github, page, image, caption, description }) {
             <div className="card mb-3 px-5">
                 <div className="row g-0">
                     <div className="col-md-4 center">
-                        <a href={page} target="_blank" rel="noreferrer">
-                            <img className="shadow-lg" id="app-logo" src={image} alt="App Icon" />
-                        </a>
+                        <img className="shadow-lg" id="app-logo" src={image} alt="App Icon" />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body box">

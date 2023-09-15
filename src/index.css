@@ -22,12 +22,6 @@ body {
   color: var(--primaryText);
 }
 
-h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-  text-align: center;
-}
-
 header, footer {
   background-color: var(--navbar);
 }
@@ -87,25 +81,6 @@ th {
 .card {
   background-color: transparent;
   border: 0;
-  color: var(--primaryText);
-  /* border-radius: 10px; */
-}
-
-.card-header{
-  background-color: transparent;
-  border: 0;
-  font-size: 2em;
-  font-weight: bold;
-  text-align: center;
-}
-.card-body{
-  background-color: transparent;
-  border: 0;
-}
-.card-footer{
-  background-color: transparent;
-  border: 0;
-  text-align: center;
 }
 
 .nav-link {
@@ -114,15 +89,6 @@ th {
 
 .nav-link:hover {
   color: var(--secondaryText);
-}
-
-.progress-bar {
-}
-
-.progress-bar-striped {
-}
-
-.social-body {
 }
 
 .icon {

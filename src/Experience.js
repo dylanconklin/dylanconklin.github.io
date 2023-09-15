@@ -1,112 +1,4 @@
-function List({ items }) {
-    var list = items.array.forEach(element => {
-
-        console.log(element);
-    });
-    return (
-        <>
-            <ul>
-                {list}
-            </ul>
-        </>
-    )
-}
-
-function Job({ position, employer, time, label, responsibilities }) {
-    var label = label + " fa-5x icon center"
-    return (
-        <>
-            <div className="card m-3">
-                <div className="row g-0">
-                    <div className="card-body col-md-4">
-                        <i className={label} />
-                        <br />
-                        <h2 className="card-title">
-                            {position}
-                        </h2>
-                        <div className="caption">
-                            {employer}
-                        </div>
-                        <p className="card-text">
-                            {time}
-                        </p>
-                    </div>
-                    <div className="card-body col-md-8 box">
-                        <h2 className="card-title">
-                            Responsibilities
-                        </h2>
-                        <p className="card-text">
-                            {responsibilities}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-}
-
-function Education({ school, degree, year }) {
-    return (
-        <>
-            <div className="card mb-3">
-                <div className="row g-0">
-                    <div className="col-md-4 p-3 center">
-                        <i className="fa-solid fa-graduation-cap fa-5x icon center"></i>
-                    </div>
-                    <div className="card-body col-md-8 box">
-                        <h2 className="card-title">
-                            {school}
-                        </h2>
-                        <div className="caption">
-                            {degree}
-                        </div>
-                        <p className="card-text">
-                            {year}
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-}
-
-function Certification({ cert, type, label }) {
-    var label = label + " fa-5x icon"
-    return (
-        <>
-            <div className="card mb-3">
-                <div className="row g-0">
-                    <div className="col-md-4 p-3 center">
-                        <i className={label} />
-                    </div>
-                    <div className="card-body col-md-8 box">
-                        <h2 className="card-title">
-                            {cert}
-                        </h2>
-                        <div className="caption">
-                            {type}
-                        </div>
-                        <p className="card-text">
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </>
-    )
-}
-
-function TechSkill({ skill, label }) {
-    var label = label + " fa-5x icon center"
-    return (
-        <>
-            <div className="col m-3">
-                <i className={label} />
-                <br />
-                {skill}
-            </div>
-        </>
-    )
-}
+import * as Component from './Components';
 
 export default function Experience() {
     return (
@@ -114,37 +6,37 @@ export default function Experience() {
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <h1 className="m-5">Education</h1>
-                        <Education
+                        <Component.H1 content="Education" />
+                        <Component.Education
                             school="Portland State University"
                             degree="Bachelor of Science, Computer Science"
                             year="2023"
                         />
-                        <Education
+                        <Component.Education
                             school="Portland Community College"
                             degree="Associate of Arts"
                             year="2021"
                         />
                     </div>
                     <div className="col">
-                        <h1 className="m-5">Certifications</h1>
+                        <Component.H1 content="Certifications" />
                         <div className="container">
                             <div className="row">
-                                <Certification
+                                <Component.Certification
                                     cert="Microsoft Office Specialist"
                                     type="PowerPoint"
                                     label="fa-brands fa-microsoft"
                                 />
                             </div>
                             <div className="row">
-                                <Certification
+                                <Component.Certification
                                     cert="Microsoft Technology Associate"
                                     type="HTML5 Application Development Fundamentals"
                                     label="fa-solid fa-code"
                                 />
                             </div>
                             <div className="row">
-                                <Certification
+                                <Component.Certification
                                     cert="CompTIA"
                                     type="IT Fundamentals"
                                     label="fa-solid fa-microchip"
@@ -154,48 +46,48 @@ export default function Experience() {
                     </div>
                 </div>
             </div>
-            <h1 className="m-5">Tech Skills</h1>
+            <Component.H1 content="Tech Skills" />
             <div className="container text-center">
                 <div className="row">
-                    <TechSkill
+                    <Component.TechSkill
                         skill="Swift"
                         label="fa-brands fa-swift"
                     />
-                    <TechSkill
+                    <Component.TechSkill
                         skill="C / C++ / Objective - C"
                         label="fa-solid fa-c"
                     />
-                    <TechSkill
+                    <Component.TechSkill
                         skill="SQL"
                         label="fa-solid fa-database"
                     />
-                    <TechSkill
+                    <Component.TechSkill
                         skill="Git"
                         label="fa-brands fa-git-alt"
                     />
                 </div>
                 <div className="row">
-                    <TechSkill
+                    <Component.TechSkill
                         skill="HTML"
                         label="fa-brands fa-html5"
                     />
-                    <TechSkill
+                    <Component.TechSkill
                         skill="CSS"
                         label="fa-brands fa-css3"
                     />
-                    <TechSkill
+                    <Component.TechSkill
                         skill="Javascript / Typescript"
                         label="fa-brands fa-square-js"
                     />
-                    <TechSkill
+                    <Component.TechSkill
                         skill="React"
                         label="fa-brands fa-react"
                     />
                 </div>
             </div>
-            <h1 className="m-5">Work Experience</h1>
+            <Component.H1 content="Work Experience" />
             <div className="px-3">
-                <Job
+                <Component.Job
                     position="Student Software Developer"
                     employer="Portland State University"
                     time="January 2023 - June 2023"
@@ -231,7 +123,7 @@ export default function Experience() {
                         </ul>
                     </>}
                 />
-                <Job
+                <Component.Job
                     position="Academic Tutor"
                     employer="Tigard High School"
                     time="February 2017 - June 2017"
@@ -250,7 +142,7 @@ export default function Experience() {
                         </ul>
                     </>}
                 />
-                <Job
+                <Component.Job
                     position="Sales Representative"
                     employer="The Wireless Stores / T - Mobile"
                     time="November 2016 - February 2017"

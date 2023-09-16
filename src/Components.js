@@ -1,3 +1,62 @@
+function AppCard({ title, github, page, image, caption, description }) {
+    var secondary_button = !page ? null :
+        <Button
+            link={page}
+            label={<>
+                <i className="fa-brands fa-youtube p-1" />
+                Watch promo on YouTube
+            </>}
+            primary={false}
+        />
+    return (
+        <>
+            <div className="card mb-3 px-5">
+                <div className="row g-0">
+                    <div className="col-md-4 center">
+                        <img className="shadow-lg" id="app-logo" src={image} alt="App Icon" />
+                    </div>
+                    <div className="col-md-8">
+                        <div className="card-body box">
+                            <h2 className="card-title">
+                                {title}
+                            </h2>
+                            <div className="secondaryText">
+                                {caption}
+                            </div>
+                            <br />
+                            <p className="card-text">
+                                {description}
+                            </p>
+                            <Button
+                                link={github}
+                                label={<>
+                                    <i className="fa-brands fa-github p-1" />
+                                    View on Github
+                                </>}
+                                primary={true}
+                            />
+                            {secondary_button}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+function Button({ link, label, primary = false }) {
+    var buttonClass = "btn btn-" + (primary ? "primary" : "secondary") + " m-1"
+    return (
+        <>
+            <a href={link} target="_blank" rel="noreferrer">
+                <button type="button" className={buttonClass}>
+                    {label}
+                </button>
+            </a>
+        </>
+    )
+}
+
 function Certification({ cert, type, label }) {
     var label = label + " fa-5x icon"
     return (
@@ -104,8 +163,10 @@ function TechSkill({ skill, label }) {
     )
 }
 
-export {Certification};
-export {Education};
-export {H1};
-export {Job};
-export {TechSkill};
+export { AppCard };
+export { Button };
+export { Certification };
+export { Education };
+export { H1 };
+export { Job };
+export { TechSkill };

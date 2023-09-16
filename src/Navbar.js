@@ -38,12 +38,12 @@ function Header() {
                             </a>
                             <ul className="dropdown-menu">
                                 <li>
-                                    <a className="dropdown-item" href="https://github.com/dylanconklin">
+                                    <a className="dropdown-item" href="https://github.com/dylanconklin" target="_blank">
                                         GitHub
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" href="https://www.linkedin.com/in/dylan-conklin-152a07186/">
+                                    <a className="dropdown-item" href="https://www.linkedin.com/in/dylan-conklin-152a07186/" target="_blank">
                                         LinkedIn
                                     </a>
                                 </li>

@@ -58,6 +58,10 @@ export default function Experience() {
                         label="fa-solid fa-c"
                     />
                     <Component.TechSkill
+                        skill="XCTest"
+                        label="fa-solid fa-check"
+                    />
+                    <Component.TechSkill
                         skill="SQL"
                         label="fa-solid fa-database"
                     />
@@ -82,6 +86,10 @@ export default function Experience() {
                     <Component.TechSkill
                         skill="React"
                         label="fa-brands fa-react"
+                    />
+                    <Component.TechSkill
+                        skill="Jest"
+                        label="fa-solid fa-flask"
                     />
                 </div>
             </div>

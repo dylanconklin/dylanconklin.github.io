@@ -157,7 +157,7 @@ export default function Experience() {
                     label="fa-solid fa-users"
                     responsibilities={<>
                         <ul>
-                            <li>Assist customer with:</li>
+                            <li>Assist customers with:</li>
                             <ul>
                                 <li>managing their account</li>
                                 <li>troubleshooting devices</li>

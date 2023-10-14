@@ -29,7 +29,7 @@ export default function About() {
             </div>
             <hr />
             <Component.AppCard
-                title="Adjacency Table"
+                title="Graph App"
                 github="https://github.com/dylanconklin/Adjacency-Table"
                 page="https://www.youtube.com/watch?v=dJc68L8nda8"
                 image="images/adjacency-table-builder-logo.jpg"

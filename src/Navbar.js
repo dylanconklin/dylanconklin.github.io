@@ -84,6 +84,14 @@ function Footer() {
                         icon="fa-brands fa-linkedin-in fa-2x"
                         link="https://www.linkedin.com/in/dylan-conklin-152a07186/"
                     />
+                    <SocialMediaLink
+                        icon="fa-regular fa-envelope fa-2x"
+                        link="https://forms.gle/wAZ27RB7i295UK2K7"
+                    />
+                    <SocialMediaLink
+                        icon="fa-regular fa-calendar fa-2x"
+                        link="https://dylanconklin.youcanbook.me/"
+                    />
                 </div>
             </footer>
         </>

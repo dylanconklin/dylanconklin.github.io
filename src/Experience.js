@@ -61,8 +61,12 @@ export default function Experience() {
                         skill="Objective - C"
                         label="fa-brands fa-apple"
                     />
-                    </div>
-                    <div className="row">
+                    <Component.TechSkill
+                        skill="Python"
+                        label="fa-brands fa-python"
+                    />
+                </div>
+                <div className="row">
                     <Component.TechSkill
                         skill="HTML"
                         label="fa-brands fa-html5"
@@ -79,8 +83,8 @@ export default function Experience() {
                         skill="React"
                         label="fa-brands fa-react"
                     />
-                    </div>
-                    <div className="row">
+                </div>
+                <div className="row">
                     <Component.TechSkill
                         skill="SQL"
                         label="fa-solid fa-database"
@@ -104,18 +108,17 @@ export default function Experience() {
             {/* label="fa-solid fa-users" */}
             <div className="px-3">
                 <Component.Job
-                    position="iOS Developer"
-                    employer="Personal Projects"
-                    time="June 2023 - present"
-                    label="fa-solid fa-hammer"
+                    position="Research Assistant"
+                    employer="Portland State University"
+                    time="November 2023 - present"
+                    label="fa-solid fa-flask"
                     responsibilities={<>
                         <ul>
-                            <li>Graph data methods, including get, insert, modify, and delete</li>
-                            <li>Graph property checkers (cyclic, tree, connected, etc.)</li>
-                            <li>Table building interface and adjacency table generation using SwiftUI</li>
-                            <li>GraphViz code generation</li>
-                            <li>Test suites using XCTest</li>
-                            <li>App icon and promotional material</li>
+                            <li>Lead research project</li>
+                            <li>Implement front-end and back-end code for research software</li>
+                            <li>Implement unit testing for software</li>
+                            <li>Participate in meetings with project sponsor</li>
+                            <li>Write weekly meeting summaries and reports</li>
                         </ul>
                     </>}
                 />

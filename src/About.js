@@ -18,7 +18,7 @@ export default function About() {
                             </div>
                             <br />
                             <p className="card-text">
-                                Hello, my name is Dylan Conklin. I am a recent graduate of Portland State University, with a Bachelor of Science in Computer Science.
+                                Hello, my name is Dylan Conklin. I am a Research Assistant at Portland State University, with a Bachelor of Science in Computer Science.
                             </p>
                             <p className="card-text">
                                 I have experience as a software developer, working on Portland State's SAFE team to develop an anonymous feedback system for Portland State's Computer Science Department.

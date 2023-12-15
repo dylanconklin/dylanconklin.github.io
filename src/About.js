@@ -14,7 +14,6 @@ export default function About() {
                                 About Me
                             </h2>
                             <div className="secondaryText">
-                                Seeking iOS Developer position
                             </div>
                             <br />
                             <p className="card-text">

@@ -62,8 +62,8 @@ export default function Experience() {
                         label="fa-brands fa-apple"
                     />
                     <Component.TechSkill
-                        skill="Python"
-                        label="fa-brands fa-python"
+                        skill="Flutter"
+                        label="fa-solid fa-dove"
                     />
                 </div>
                 <div className="row">

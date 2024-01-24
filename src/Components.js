@@ -1,10 +1,19 @@
 function AppCard({ title, github, page, image, caption, description }) {
+    var primary_button = !github ? null :
+    <Button
+        link={page}
+        label={<>
+            <i className="fa-brands fa-youtube p-1" />
+            View on Github
+        </>}
+        primary={true}
+    />
     var secondary_button = !page ? null :
         <Button
             link={page}
             label={<>
-                <i className="fa-brands fa-youtube p-1" />
-                Watch promo on YouTube
+                <i className="fa-brands fa-github p-1" />
+                Watch on YouTube
             </>}
             primary={false}
         />
@@ -27,15 +36,36 @@ function AppCard({ title, github, page, image, caption, description }) {
                             <p className="card-text">
                                 {description}
                             </p>
-                            <Button
-                                link={github}
-                                label={<>
-                                    <i className="fa-brands fa-github p-1" />
-                                    View on Github
-                                </>}
-                                primary={true}
-                            />
+                            {primary_button}
                             {secondary_button}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+function BioCard({ title, github, page, image, caption, description }) {
+    return (
+        <>
+            <div className="card mb-3 px-5">
+                <div className="row g-0">
+                    <div className="col-md-4 center">
+                        <img className="shadow-lg" id="portrait" src={image} alt="Photo of Dylan Conklin" />
+                    </div>
+                    <div className="col-md-8">
+                        <div className="card-body">
+                            <h2 className="card-title">
+                                {title}
+                            </h2>
+                            <div className="secondaryText">
+                                {caption}
+                            </div>
+                            <br />
+                            <p className="card-text">
+                                {description}
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -57,7 +87,7 @@ function Button({ link, label, primary = false }) {
     )
 }
 
-function Certification({ cert, type, label }) {
+function Certification({ cert, type, time, label }) {
     var label = label + " fa-5x icon"
     return (
         <>
@@ -74,6 +104,7 @@ function Certification({ cert, type, label }) {
                             {type}
                         </div>
                         <p className="card-text">
+                            {time}
                         </p>
                     </div>
                 </div>
@@ -117,15 +148,12 @@ function H1({ content }) {
     )
 }
 
-function Job({ position, employer, time, label, responsibilities }) {
-    var label = label + " fa-5x icon center"
+function Job({ position, employer, time, responsibilities }) {
     return (
         <>
             <div className="card m-3">
                 <div className="row g-0">
                     <div className="card-body col-md-4">
-                        <i className={label} />
-                        <br />
                         <h2 className="card-title">
                             {position}
                         </h2>
@@ -164,6 +192,7 @@ function TechSkill({ skill, label }) {
 }
 
 export { AppCard };
+export { BioCard };
 export { Button };
 export { Certification };
 export { Education };

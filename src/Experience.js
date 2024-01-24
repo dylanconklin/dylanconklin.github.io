@@ -25,6 +25,7 @@ export default function Experience() {
                                 <Component.Certification
                                     cert="Microsoft Office Specialist"
                                     type="PowerPoint"
+                                    time="2016"
                                     label="fa-brands fa-microsoft"
                                 />
                             </div>
@@ -32,6 +33,7 @@ export default function Experience() {
                                 <Component.Certification
                                     cert="Microsoft Technology Associate"
                                     type="HTML5 Application Development Fundamentals"
+                                    time="2017"
                                     label="fa-solid fa-code"
                                 />
                             </div>
@@ -39,6 +41,7 @@ export default function Experience() {
                                 <Component.Certification
                                     cert="CompTIA"
                                     type="IT Fundamentals"
+                                    time="2017"
                                     label="fa-solid fa-microchip"
                                 />
                             </div>
@@ -50,41 +53,17 @@ export default function Experience() {
             <div className="container text-center">
                 <div className="row">
                     <Component.TechSkill
-                        skill="Swift"
+                        skill="Swift / Objective - C"
                         label="fa-brands fa-swift"
                     />
                     <Component.TechSkill
-                        skill="C / C++"
-                        label="fa-solid fa-c"
-                    />
-                    <Component.TechSkill
-                        skill="Objective - C"
-                        label="fa-brands fa-apple"
-                    />
-                    <Component.TechSkill
                         skill="Flutter"
-                        label="fa-solid fa-dove"
-                    />
-                </div>
-                <div className="row">
-                    <Component.TechSkill
-                        skill="HTML"
-                        label="fa-brands fa-html5"
+                        label="fa-solid fa-feather-pointed"
                     />
                     <Component.TechSkill
-                        skill="CSS"
-                        label="fa-brands fa-css3"
-                    />
-                    <Component.TechSkill
-                        skill="Javascript / Typescript"
-                        label="fa-brands fa-square-js"
-                    />
-                    <Component.TechSkill
-                        skill="React"
+                        skill="React (HTML, CSS, JS)"
                         label="fa-brands fa-react"
                     />
-                </div>
-                <div className="row">
                     <Component.TechSkill
                         skill="SQL"
                         label="fa-solid fa-database"
@@ -92,14 +71,6 @@ export default function Experience() {
                     <Component.TechSkill
                         skill="Git"
                         label="fa-brands fa-git-alt"
-                    />
-                    <Component.TechSkill
-                        skill="XCTest"
-                        label="fa-solid fa-check"
-                    />
-                    <Component.TechSkill
-                        skill="Jest"
-                        label="fa-solid fa-flask"
                     />
                 </div>
             </div>
@@ -111,7 +82,6 @@ export default function Experience() {
                     position="Research Assistant"
                     employer="Portland State University"
                     time="November 2023 - present"
-                    label="fa-solid fa-flask"
                     responsibilities={<>
                         <ul>
                             <li>Lead research project</li>
@@ -126,7 +96,6 @@ export default function Experience() {
                     position="Student Software Developer"
                     employer="Portland State University"
                     time="January 2023 - June 2023"
-                    label="fa-solid fa-terminal"
                     responsibilities={<>
                         <ul>
                             <li>Sentiment analysis and unique code generation class</li>

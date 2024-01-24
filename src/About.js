@@ -3,30 +3,15 @@ import * as Component from './Components';
 export default function About() {
     return (
         <>
-            <div className="card m-3">
-                <div className="row g-0">
-                    <div className="col-md-4 center">
-                        <img className="shadow-lg" id="portrait" alt="Portrait of Dylan Conklin" src="images/image.jpeg" />
-                    </div>
-                    <div className="col-md-8">
-                        <div className="card-body">
-                            <h2 className="card-title">
-                                About Me
-                            </h2>
-                            <div className="secondaryText">
-                            </div>
-                            <br />
-                            <p className="card-text">
-                                Hello, my name is Dylan Conklin. I am a Research Assistant at Portland State University, with a Bachelor of Science in Computer Science.
-                            </p>
-                            <p className="card-text">
-                                I have experience as a software developer, working on Portland State's SAFE team to develop an anonymous feedback system for Portland State's Computer Science Department.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr />
+            <Component.BioCard
+                title="About Me"
+                github={null}
+                page={null}
+                image="images/image.jpeg"
+                caption=""
+                description="Hello, my name is Dylan Conklin. I am a Research Assistant at Portland State University, with a Bachelor of Science in Computer Science. I have experience as a software developer, working on Portland State's SAFE team and the Data and Internet Privacy Lab."
+            />
+            <hr class="mx-5" />
             <Component.AppCard
                 title="Graph App"
                 github="https://github.com/dylanconklin/Adjacency-Table"
@@ -38,7 +23,7 @@ export default function About() {
             <Component.AppCard
                 title="The SAFE Project"
                 github="https://github.com/PSU-MCECS-SAFE/SAFE"
-                page={null}
+                page="https://www.youtube.com/watch?v=jXNqKNVhqEY"
                 image="images/safe-logo.jpg"
                 caption="HTML, CSS, Javascript, Typescript, NodeJS, React, Jest, SQL"
                 description="SAFE is an anonymous feedback system with optional chat for ongoing communication. With SAFE, you can share your thoughts, ideas, and concerns without fear of judgment or retaliation. SAFE allows for honest and secure communication, helping to improve safety and productivity."

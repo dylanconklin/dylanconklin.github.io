@@ -32,11 +32,16 @@ function Header() {
                                 About
                             </a>
                         </li>
+                        <li className="nav-item">
+                            <a className="nav-link" target="_self" onClick={() => reload('#experience')}>
+                                Experience
+                            </a>
+                        </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Social Media
                             </a>
-                            <ul className="dropdown-menu">
+                            <ul className="dropdown-menu dropdown-menu-end">
                                 <li>
                                     <a className="dropdown-item" href="https://github.com/dylanconklin" target="_blank">
                                         GitHub
@@ -58,11 +63,6 @@ function Header() {
                                     </a>
                                 </li>
                             </ul>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" target="_self" onClick={() => reload('#experience')}>
-                                Experience
-                            </a>
                         </li>
                     </ul>
                 </div>

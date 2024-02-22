@@ -1,18 +1,18 @@
 function AppCard({ title, github, page, image, caption, description }) {
     var primary_button = !github ? null :
-    <Button
-        link={page}
-        label={<>
-            <i className="fa-brands fa-youtube p-1" />
-            View on Github
-        </>}
-        primary={true}
-    />
-    var secondary_button = !page ? null :
         <Button
             link={page}
             label={<>
                 <i className="fa-brands fa-github p-1" />
+                View on Github
+            </>}
+            primary={true}
+        />
+    var secondary_button = !page ? null :
+        <Button
+            link={page}
+            label={<>
+                <i className="fa-brands fa-youtube p-1" />
                 Watch on YouTube
             </>}
             primary={false}

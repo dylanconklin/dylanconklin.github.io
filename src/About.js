@@ -13,12 +13,12 @@ export default function About() {
             />
             <hr class="mx-5" />
             <Component.AppCard
-                title="Graph App"
-                github="https://github.com/dylanconklin/Adjacency-Table"
+                title="Lineosaur"
+                github="https://github.com/dylanconklin/Lineosaur"
                 page="https://www.youtube.com/watch?v=dJc68L8nda8"
-                image="images/adjacency-table-builder-logo.jpg"
-                caption="Swift, SwiftUI"
-                description="This powerful tool generates an adjacency table based on your data, which includes the names of various points on a map and their respective distances. With GraphApp, you can easily visualize and analyze the connections between different locations. Try it today and see how it can simplify your workflow."
+                image="images/lineosaur-logo.jpg"
+                caption="Swift, SwiftUI, SwiftData"
+                description="This powerful tool generates an adjacency table based on your data, which includes the names of various points on a map and their respective distances. With Lineosaur you can easily visualize and analyze the connections between different locations. Try it today and see how it can simplify your workflow."
             />
             <Component.AppCard
                 title="The SAFE Project"

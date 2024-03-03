@@ -1,22 +1,52 @@
-function AppCard({ title, github, page, image, caption, description }) {
-    var primary_button = !github ? null :
-        <Button
-            link={page}
-            label={<>
-                <i className="fa-brands fa-github p-1" />
-                View on Github
-            </>}
-            primary={true}
-        />
-    var secondary_button = !page ? null :
-        <Button
-            link={page}
-            label={<>
-                <i className="fa-brands fa-youtube p-1" />
-                Watch on YouTube
-            </>}
-            primary={false}
-        />
+function TestFlightButton(testFlightLink) {
+    return (
+        <>
+            <Button
+                link={testFlightLink}
+                label={<>
+                    <i className="fa-brands fa-app-store-ios p-1" />
+                    Download on TestFlight
+                </>}
+                primary={true}
+            />
+        </>
+    )
+}
+
+function GithubButton(githubLink) {
+    return (
+        <>
+            <Button
+                link={githubLink}
+                label={<>
+                    <i className="fa-brands fa-github p-1" />
+                    View on Github
+                </>}
+                primary={true}
+            />
+        </>
+    )
+}
+
+function YouTubeButton(youTubeLink) {
+    return (
+        <>
+            <Button
+                link={youTubeLink}
+                label={<>
+                    <i className="fa-brands fa-youtube p-1" />
+                    Watch on YouTube
+                </>}
+                primary={false}
+            />
+        </>
+    )
+}
+
+function AppCard({ title, appStore, testFlightLink, githubLink, youTubeLink, image, caption, description }) {
+    var testFlightButton = !testFlightLink ? null : <TestFlightButton testFlightLink={testFlightLink} />
+    var githubButton = !githubLink ? null : <GithubButton githubLink={githubLink} />
+    var youTubeButton = !youTubeLink ? null : <YouTubeButton youTubeLink={youTubeLink} />
     return (
         <>
             <div className="card mb-3 px-5">
@@ -36,8 +66,9 @@ function AppCard({ title, github, page, image, caption, description }) {
                             <p className="card-text">
                                 {description}
                             </p>
-                            {primary_button}
-                            {secondary_button}
+                            {testFlightButton}
+                            {githubButton}
+                            {youTubeButton}
                         </div>
                     </div>
                 </div>

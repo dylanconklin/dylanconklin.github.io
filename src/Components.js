@@ -1,16 +1,25 @@
-function AppCard({ title, github, page, image, caption, description }) {
-    var primary_button = !github ? null :
+function AppCard({ title, testflightLink, github, youtubeLink, image, caption, description }) {
+    var testflight_button = !testflightLink ? null :
         <Button
-            link={page}
+            link={testflightLink}
+            label={<>
+                <i className="fa-solid fa-download p-1" />
+                Download on TestFlight
+            </>}
+            primary={true}
+        />
+    var github_button = !github ? null :
+        <Button
+            link={github}
             label={<>
                 <i className="fa-brands fa-github p-1" />
                 View on Github
             </>}
-            primary={true}
+            primary={false}
         />
-    var secondary_button = !page ? null :
+    var youtube_button = !youtubeLink ? null :
         <Button
-            link={page}
+            link={youtubeLink}
             label={<>
                 <i className="fa-brands fa-youtube p-1" />
                 Watch on YouTube
@@ -29,15 +38,16 @@ function AppCard({ title, github, page, image, caption, description }) {
                             <h2 className="card-title">
                                 {title}
                             </h2>
-                            <div className="secondaryText">
+                            <div className="secondary">
                                 {caption}
                             </div>
                             <br />
                             <p className="card-text">
                                 {description}
                             </p>
-                            {primary_button}
-                            {secondary_button}
+                            {testflight_button}
+                            {github_button}
+                            {youtube_button}
                         </div>
                     </div>
                 </div>
@@ -59,7 +69,7 @@ function BioCard({ title, github, page, image, caption, description }) {
                             <h2 className="card-title">
                                 {title}
                             </h2>
-                            <div className="secondaryText">
+                            <div className="secondary">
                                 {caption}
                             </div>
                             <br />
@@ -100,7 +110,7 @@ function Certification({ cert, type, time, label }) {
                         <h2 className="card-title">
                             {cert}
                         </h2>
-                        <div className="secondaryText">
+                        <div className="secondary">
                             {type}
                         </div>
                         <p className="card-text">
@@ -125,7 +135,7 @@ function Education({ school, degree, year }) {
                         <h2 className="card-title">
                             {school}
                         </h2>
-                        <div className="secondaryText">
+                        <div className="secondary">
                             {degree}
                         </div>
                         <p className="card-text">
@@ -157,7 +167,7 @@ function Job({ position, employer, time, responsibilities }) {
                         <h2 className="card-title">
                             {position}
                         </h2>
-                        <div className="secondaryText">
+                        <div className="secondary">
                             {employer}
                         </div>
                         <p className="card-text">

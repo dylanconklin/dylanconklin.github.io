@@ -1,27 +1,27 @@
 :root {
   --background: #4F5D75;
   --foreground: #2D3142;
-  --primaryText: #FFFFFF;
-  --secondaryText: #BFC0C0;
-  --altText: #EF8354;
+  --primary: #FFFFFF;
+  --secondary: #BFC0C0;
+  --alt: #EF8354;
 }
 
 a {
-  color: var(--primaryText);
+  color: var(--primary);
   transition: color .35s;
 }
 
-.secondaryText,
+.secondary,
 a:hover,
 .btn-secondary,
 .dropdown-item:hover,
 .nav-link:hover {
-  color: var(--secondaryText);
+  color: var(--secondary);
 }
 
 body {
   background-color: var(--background);
-  color: var(--primaryText);
+  color: var(--primary);
 }
 
 header,
@@ -70,12 +70,12 @@ footer {
 
 .nav-link,
 .icon {
-  color: var(--primaryText);
+  color: var(--primary);
 }
 
 .dropdown-item {
   background-color: var(--foreground);
-  color: var(--primaryText);
+  color: var(--primary);
   text-align: center;
 }
 
@@ -90,25 +90,25 @@ footer {
 }
 
 .btn-primary {
-  background-color: var(--altText);
-  border: 3px solid var(--altText);
-  color: var(--primaryText);
+  background-color: var(--alt);
+  border: 3px solid var(--alt);
+  color: var(--primary);
 }
 
 .btn-primary:hover {
   background-color: var(--background);
   border: 3px solid var(--background);
-  color: var(--primaryText);
+  color: var(--primary);
 }
 
 .btn-secondary {
   background-color: var(--background);
-  border: 3px solid var(--secondaryText);
+  border: 3px solid var(--secondary);
 }
 
 .btn-secondary:hover {
-  background-color: var(--secondaryText);
-  border: 3px solid var(--secondaryText);
+  background-color: var(--secondary);
+  border: 3px solid var(--secondary);
   color: var(--background);
 }
 

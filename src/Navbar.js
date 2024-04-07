@@ -39,7 +39,7 @@ function Header() {
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Social Media
+                                Contact Me
                             </a>
                             <ul className="dropdown-menu dropdown-menu-end">
                                 <li>

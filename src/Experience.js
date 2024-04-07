@@ -9,6 +9,11 @@ export default function Experience() {
                         <Component.H1 content="Education" />
                         <Component.Education
                             school="Portland State University"
+                            degree="Master of Science, Computer Science"
+                            year="Expected in 2026"
+                        />
+                        <Component.Education
+                            school="Portland State University"
                             degree="Bachelor of Science, Computer Science"
                             year="2023"
                         />
@@ -80,7 +85,13 @@ export default function Experience() {
             <div className="px-3">
                 <Component.Job
                     position="Research Assistant"
-                    employer="Portland State University"
+                    employer={<>
+                        Portland State University
+                        <br />
+                        <a href="https://https://diprlab.github.io">
+                            Data and Internet Privacy Lab
+                        </a>
+                    </>}
                     time="November 2023 - present"
                     responsibilities={<>
                         <ul>

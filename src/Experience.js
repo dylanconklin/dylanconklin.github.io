@@ -88,7 +88,7 @@ export default function Experience() {
                     employer={<>
                         Portland State University
                         <br />
-                        <a href="https://https://diprlab.github.io">
+                        <a href="https://diprlab.github.io">
                             Data and Internet Privacy Lab
                         </a>
                     </>}

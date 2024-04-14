@@ -28,7 +28,7 @@ function AppCard({ title, testflightLink, github, youtubeLink, image, caption, d
         />
     return (
         <>
-            <div className="card mb-3 px-5">
+            <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-4 center">
                         <img className="shadow-lg" id="app-logo" src={image} alt="App Icon" />
@@ -103,7 +103,7 @@ function Certification({ cert, type, time, label }) {
         <>
             <div className="card mb-3">
                 <div className="row g-0">
-                    <div className="col-md-4 p-3 center">
+                    <div className="col-md-4 center">
                         <i className={label} />
                     </div>
                     <div className="card-body col-md-8 box">
@@ -123,24 +123,29 @@ function Certification({ cert, type, time, label }) {
     )
 }
 
-function Education({ school, degree, year }) {
+function Education({ school, degree }) {
+    let degrees = degree.map(function (degree) {
+        return <>
+            <div className="secondary">
+                {degree[0]}
+            </div>
+            <p className="card-text">
+                {degree[1]}
+            </p>
+        </>
+    })
     return (
         <>
             <div className="card mb-3">
                 <div className="row g-0">
-                    <div className="col-md-4 p-3 center">
-                        <i className="fa-solid fa-graduation-cap fa-5x icon center"></i>
+                    <div className="col-md-4 center">
+                        <i className="fa-solid fa-graduation-cap fa-5x icon center" />
                     </div>
                     <div className="card-body col-md-8 box">
                         <h2 className="card-title">
                             {school}
                         </h2>
-                        <div className="secondary">
-                            {degree}
-                        </div>
-                        <p className="card-text">
-                            {year}
-                        </p>
+                        {degrees}
                     </div>
                 </div>
             </div>

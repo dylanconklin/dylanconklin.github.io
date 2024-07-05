@@ -43,22 +43,22 @@ function Header() {
                             </a>
                             <ul className="dropdown-menu dropdown-menu-end">
                                 <li>
-                                    <a className="dropdown-item" href="https://github.com/dylanconklin" target="_blank">
+                                    <a className="dropdown-item" href="https://github.com/dylanconklin" target="_blank" rel="noreferrer">
                                         GitHub
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" href="https://www.linkedin.com/in/dylan-conklin-152a07186/" target="_blank">
+                                    <a className="dropdown-item" href="https://www.linkedin.com/in/dylan-conklin-152a07186/" target="_blank" rel="noreferrer">
                                         LinkedIn
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" href="https://forms.gle/wAZ27RB7i295UK2K7" target="_blank">
+                                    <a className="dropdown-item" href="https://forms.gle/wAZ27RB7i295UK2K7" target="_blank" rel="noreferrer">
                                         Contact Form
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" href="https://dylanconklin.youcanbook.me" target="_blank">
+                                    <a className="dropdown-item" href="https://dylanconklin.youcanbook.me" target="_blank" rel="noreferrer">
                                         Schedule Meeting
                                     </a>
                                 </li>

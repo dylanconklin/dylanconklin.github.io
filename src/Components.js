@@ -98,7 +98,7 @@ function Button({ link, label, primary = false }) {
 }
 
 function Certification({ cert, type, time, label }) {
-    var label = label + " fa-5x icon"
+    label += " fa-5x icon"
     return (
         <>
             <div className="card mb-3">
@@ -194,7 +194,7 @@ function Job({ position, employer, time, responsibilities }) {
 }
 
 function TechSkill({ skill, label }) {
-    var label = label + " fa-5x icon center"
+    label += " fa-5x icon center"
     return (
         <>
             <div className="col m-3">

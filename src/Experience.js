@@ -100,10 +100,10 @@ export default function Experience() {
                         responsibilities={<>
                             <ul>
                                 <li>Lead research project</li>
-                                <li>Implement front-end and back-end code for research software</li>
-                                <li>Implement unit testing for software</li>
-                                <li>Participate in meetings with project sponsor</li>
-                                <li>Write weekly meeting summaries and reports</li>
+                                <li>Design and implement front-end and back-end components in the codebase</li>
+                                <li>Collaborate with sponsors and developers in weekly meetings</li>
+                                <li>Document project progress, including writing meeting summaries and reports</li>
+                                <li>Maintain the DIPr Lab website</li>
                             </ul>
                         </>}
                     />

@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database &amp; Internet Privacy (DIPr) Lab | DIPr Lab at PSU</title>
+    <link>/wiki/</link>
+      <atom:link href="/wiki/index.xml" rel="self" type="application/rss+xml" />
+    <description>Database &amp; Internet Privacy (DIPr) Lab</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu11534601174274055989.png</url>
+      <title>Database &amp; Internet Privacy (DIPr) Lab</title>
+      <link>/wiki/</link>
+    </image>
+    
+    <item>
+      <title>Joining the lab</title>
+      <link>/wiki/join/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/wiki/join/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text for my gif&#34; srcset=&#34;
+               /media/bird-landing_hu14575599842816188098.webp 400w,
+               /media/bird-landing_hu14123454937878364025.webp 760w,
+               /media/bird-landing_hu13074279252669936980.webp 1200w&#34;
+               src=&#34;/media/bird-landing_hu14575599842816188098.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;505&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;graduate-students&#34;&gt;Graduate Students&lt;/h2&gt;
+&lt;p&gt;If you are interested in applying to the PSU Computer Science graduate program, please check the information on our &lt;a href=&#34;https://www.pdx.edu/academics/programs/graduate/computer-science&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Graduate Program&lt;/a&gt;.
+In your application, mention Dr. Primal Pappachan as a potential advisor and your application will be routed to me for consideration.
+Graduate admissions are done by Grad admissions committee that processes all applications and decides on admissions for the entire department. Individual faculty members may not accept students on their own but you can reach out to Dr. Primal by email if you are interested in applying and potentially being part of the DIPr lab. Please see details below on what to include in this email.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Funding&lt;/strong&gt;:  PhD students typically obtain funding. All of your tuition and fees will be paid and you will be paid a monthly stipend.&lt;/p&gt;
+&lt;h3 id=&#34;masters-students&#34;&gt;Masters students&lt;/h3&gt;
+&lt;p&gt;Master’s students who are interested in conducting research in the lab are welcome to apply, provided they are in their second quarter of study. Applicants should be able to commit to dedicating a minimum of 10 hours per week to doing research. This opportunity is ideal for students looking to gain hands-on research experience and contribute to ongoing projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Funding&lt;/strong&gt;: M.S. students are not typically funded. In some rare instances, it may be possible to pay the MS student an hourly salary.  These opportunities are extremely rare and are reserved to support students who have been in the lab for 1 or more quarters.&lt;/p&gt;
+&lt;h2 id=&#34;undergraduate-students&#34;&gt;Undergraduate Students&lt;/h2&gt;
+&lt;p&gt;Students majoring in Computer Science are encouraged to apply. Applicants should be able to commit to dedicating a minimum of 10 hours per week to doing research. This opportunity is ideal for students looking to gain hands-on research experience and contribute to ongoing projects.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Previous research experience is not required.&lt;/li&gt;
+&lt;li&gt;Knowledge of programming languages (e.g., Java, Python), Web development (e.g., HTML, Javascript, React), and Databases (e.g., MySQL, PostgreSQL) are a plus. Demonstrated coding skills is a plus.&lt;/li&gt;
+&lt;li&gt;Strong communication skills (written and oral) are a plus.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Funding&lt;/strong&gt;:  Similar to M.S. students, undergraduate students generally do not receive funding. Limited opportunities may be available, typically reserved for those who have been in the lab for more than one quarter.&lt;/p&gt;
+&lt;p&gt;You may also apply through the &lt;a href=&#34;https://www.pdx.edu/engineering/urmp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Maseeh College Undergraduate Research &amp;amp; Mentoring Program (URMP)&lt;/a&gt; listing Dr. Primal Pappachan as a faculty mentor. This 10-week program includes a stipend.&lt;/p&gt;
+&lt;h2 id=&#34;highschool-students&#34;&gt;Highschool students&lt;/h2&gt;
+&lt;p&gt;For high school students in the Portland Metropolitan area, please apply through programs such as &lt;a href=&#34;https://computinginresearch.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Institute for Computing in Research&lt;/a&gt; or &lt;a href=&#34;https://www.saturdayacademy.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Saturday Academy&lt;/a&gt; and mention your interest in working in Dr. Primal Pappachan and DIPr lab.&lt;/p&gt;
+&lt;h2 id=&#34;how-do-i-apply&#34;&gt;How do I apply?&lt;/h2&gt;
+&lt;!-- Note: This only applies to currently enrolled undergrad and M.S students at Portland State University.  --&gt;
+&lt;!-- The DIPr lab is focused on designing better data protection mechanisms for databases.  Undergraduate researchers will start by contributing to ongoing projects listed in the [home page](/). The activities may involve developing software prototypes, participating in research meetings, reading research papers, presenting results etc.  --&gt;
+&lt;p&gt;&lt;strong&gt;Ph.D. applicants&lt;/strong&gt;: When reaching out to Dr. Primal after completing the graduate application, please include your: (1) CV (including a link to your GitHub profile and website), (2) a description of your previous research experience and interests, and (3) specific information about which research projects in the lab interests you and why. Emails without these information may be ignored.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;M.S. applicants&lt;/strong&gt;: This only applies to currently enrolled M.S. students. After going through projects in the lab, if you are interested in applying to be part of the lab, send an email including: (1) your resume (PDF), (2) unofficial copy of your first year transcript (PDF), and (3) few paragraphs explaining why you’d like to work in our lab. To write this well, I suggest you look at some of our &lt;a href=&#34;/publication/&#34;&gt;previous publications&lt;/a&gt; to orient yourself to our current projects. Make the subject of your email Masters Application” and send this to Dr. Primal. You are welcome to join the weekly group meetings (see &lt;a href=&#34;/expectations&#34;&gt;Expectations&lt;/a&gt;) to learn more about the ongoing projects and connect with lab members.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Undergrad applicants&lt;/strong&gt;: This only applies to currently enrolled undergrad students. After going through projects in the lab, if you are interested in applying to be part of the lab, send an email including: (1) your resume (PDF), (2) unofficial copy of your transcript (PDF); freshman can send high school transcript (PDF), and (3) few paragraphs explaining why you’d like to work in our lab. To write this well, I suggest you look at some of our &lt;a href=&#34;/publication/&#34;&gt;previous publications&lt;/a&gt; to orient yourself to our current projects. Make the subject of your email “Undergrad Application” and send this to Dr. Primal. You are welcome to join the weekly group meetings (see &lt;a href=&#34;/expectations&#34;&gt;Expectations&lt;/a&gt;) to learn more about the ongoing projects and connect with lab members.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>/wiki/onboarding/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/wiki/onboarding/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text for my gif&#34; srcset=&#34;
+               /media/bird-taking-off_hu17662514611851701890.webp 400w,
+               /media/bird-taking-off_hu18111856093640927539.webp 760w,
+               /media/bird-taking-off_hu10748499809908364920.webp 1200w&#34;
+               src=&#34;/media/bird-taking-off_hu17662514611851701890.webp&#34;
+               width=&#34;728&#34;
+               height=&#34;471&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Welcome to DIPr Lab! We are excited that you have decided to join our team! We hope that these onboarding resources, guidelines, and tips will make the first few   steps easier.&lt;/p&gt;
+&lt;h2 id=&#34;set-up-the-first-meeting&#34;&gt;Set up the first meeting&lt;/h2&gt;
+&lt;p&gt;Check the Primal&amp;rsquo;s Google Calendar (&lt;a href=&#34;https://support.google.com/calendar/answer/6294878?hl=en&amp;amp;co=GENIE.Platform%3DDesktop&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;See someone&amp;rsquo;s calendar availability&lt;/a&gt;) and propose a time to meet that works for both of you. Primal&amp;rsquo;s office is room FAB 115-08.&lt;/p&gt;
+&lt;h2 id=&#34;join-the-github-organization&#34;&gt;Join the GitHub organization&lt;/h2&gt;
+&lt;p&gt;Our group has &lt;a href=&#34;https://github.com/DIPrLab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a GitHub organization account&lt;/a&gt; to host public and private repos for the software we create for each of the research projects. You can learn more about how to use &lt;a href=&#34;https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; in this tutorial. This is also the location for our group website, which is hosted through GitHub pages.&lt;/p&gt;
+&lt;h2 id=&#34;add-yourself-to-the-groups-website&#34;&gt;Add yourself to the group&amp;rsquo;s website&lt;/h2&gt;
+&lt;p&gt;After you have joined the GitHub organization, you can add yourself as a member to &lt;a href=&#34;https://github.com/DIPrLab/website&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the lab website&lt;/a&gt; by following the instructions on the README of the website repo.&lt;/p&gt;
+&lt;h2 id=&#34;join-our-zulip-instance&#34;&gt;Join our Zulip instance&lt;/h2&gt;
+&lt;p&gt;We use Zulip for communication around research projects, general updates, and sharing random news of interest. You can join our Zulip instance by signing up &lt;a href=&#34;https://dipr.zulip.cs.pdx.edu/join/zmjww3y3maoyyndcop746ppm/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;request-to-be-added-to-the-shared-drive&#34;&gt;Request to be added to the shared drive&lt;/h2&gt;
+&lt;p&gt;We use a shared drive on Google drive to manage common resources that are relevant to all members. You can join this drive by sending an email about the same to &lt;a href=&#34;mailto:primal@pdx.edu&#34;&gt;Primal&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;mailing-list&#34;&gt;Mailing list&lt;/h2&gt;
+&lt;p&gt;Send an invite to the &lt;a href=&#34;https://groups.google.com/a/pdx.edu/g/dipr-group&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DIPr lab Google Groups&lt;/a&gt; (only visible if you are logged into your PSU email) which is used for broadcasting information that is relevant to all group members.&lt;/p&gt;
+&lt;h2 id=&#34;office-space&#34;&gt;Office Space&lt;/h2&gt;
+&lt;p&gt;If you prefer to work in the department, please request for a desk in the first meeting with Primal. Lab members sit either in the DIPr lab space (FAB 135-04), or in the shared graduate student cubicle space. Graduate students are expected to make use of their allocated desk in the DIPr lab space. Group meetings are held in one of the conference rooms.&lt;/p&gt;
+&lt;h2 id=&#34;individual-developmentmentoring-plans&#34;&gt;Individual Development/Mentoring plans&lt;/h2&gt;
+&lt;p&gt;Within the first few weeks of joining the DIPr Lab, you should work with Primal to develop a plan outlining your short, medium, and long term goals. More on individual developing plans can be found in &lt;a href=&#34;/expectations&#34;&gt;Expectations&lt;/a&gt;.&lt;/p&gt;
+&lt;!-- 
+
+- Key access
+- Printer
+- OIT machine access --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Expectations</title>
+      <link>/wiki/expectations/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/wiki/expectations/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text for my gif&#34; srcset=&#34;
+               /media/bird-mid-flight_hu3941767993988583812.webp 400w,
+               /media/bird-mid-flight_hu8239882851009489724.webp 760w,
+               /media/bird-mid-flight_hu3394775616629222990.webp 1200w&#34;
+               src=&#34;/media/bird-mid-flight_hu3941767993988583812.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;working-hours&#34;&gt;Working hours&lt;/h3&gt;
+&lt;p&gt;You should create a working schedule that is a right fit for you with the understanding that your ideal schedule may evolve over time. Depending on the nature of your appointment, there may be specific minimum number of hours that you are expected to work and you should check with about these in the first meeting. Graduate students are generally expected to work an average of at least 40 hours per week. For M.S., undergrad, and high school students this will vary depending on the project.
+You are not expected to work on weekends and holidays. Consult with Primal and notify fellow lab members in advance of any planned absences during the week. As a student, you should feel flexible to create a work schedule that work for you while meeting the expectations of your role.&lt;/p&gt;
+&lt;p&gt;If you prefer to work remotely, this should be discussed and approved by Primal and arranged in accordance with &lt;a href=&#34;https://www.pdx.edu/human-resources/remote-work-guidelines&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Portland State University Polices on Remote Work&lt;/a&gt;. All lab members are expected to attend certain in-person events.&lt;/p&gt;
+&lt;p&gt;Note: All female researchers are entitled to two days of leave when they are on their periods.&lt;/p&gt;
+&lt;h3 id=&#34;individual-meetings&#34;&gt;Individual Meetings&lt;/h3&gt;
+&lt;p&gt;Following the first meeting, we will set up a time for regular individual meetings. Together, we&amp;rsquo;ll decide upon the timing and frequency of these meetings that will involve you, Primal, and any others working on the research project (e.g., PhD students, collaborators etc.). To make these meetings productive, please prepare an agenda in the form of document or slides.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Past: Key points from our previous meeting.&lt;/li&gt;
+&lt;li&gt;Present: Updates on what you have worked on since our last discussion.&lt;/li&gt;
+&lt;li&gt;Future: Your plan for upcoming tasks or areas where you need feedback.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Primal will help in problem solving, providing constructive feedback and general support during these meetings.&lt;/p&gt;
+&lt;p&gt;After the meeting, please share meeting notes with Primal summarizing the main discussion points within a day of the meeting. This helps keep discussions fresh in everyone’s mind. Use &lt;a href=&#34;https://docs.google.com/document/d/1cUKDqf5pdPJwzbc-Jb3oND1weKP1vjue1tYmVzZRLbk/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this provided template&lt;/a&gt; to organize the meeting notes. Primal will review these meetings and may reach out with clarifying questions or additional guidance on the tasks.&lt;/p&gt;
+&lt;p&gt;Do not cancel meetings with Primal if you feel that you have not made adequate progress on your research; these might be the most critical times to meet with a mentor.&lt;/p&gt;
+&lt;h3 id=&#34;group-meetings&#34;&gt;Group Meetings&lt;/h3&gt;
+&lt;p&gt;The schedule and venue for meetings will be determined at the beginning of the quarter and announced in the mailing list. In the beginning of the meeting, Primal will make group announcements followed by a presentation from the students. All the DIPr lab students are expected to present at least once during the quarter. This presentation can be one of the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Research presentation: A detailed talk about your research project covering aspects such as motivation, approach, and evaluation.&lt;/li&gt;
+&lt;li&gt;Project workshopping: A brief presentation of the problem that you are working on followed by collaborative brainstorming for the remainder of the meeting.&lt;/li&gt;
+&lt;li&gt;Tutorial: A hands-on presentation on a tool or a new approach that could benefit the entire group.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you are the presenter, send a detailed draft of the presentation to Primal at least 3 days prior to the meeting. Primal will review the presentation and will give you feedback on the presentation outline and indidivual slides.&lt;/p&gt;
+&lt;p&gt;We will use a shared Google Sheet to organize the presentation. Active participation is encouraged, so please ask questions and engage in discussions. Non-members are welcome to attend to learn about our work and connect with the lab members.&lt;/p&gt;
+&lt;h4 id=&#34;celebrations-&#34;&gt;Celebrations 🎉&lt;/h4&gt;
+&lt;p&gt;Once every month (typically the first or the last meeting of the month) we will celebrate with sweet treats (donuts, cupcakes, etc) to recognize any achievments or life milestones of the lab members. This includes and is not limited to paper acceptance, submissions, rejections (yes, we celebrate those too!), birthdays, and more.&lt;/p&gt;
+&lt;h3 id=&#34;database-reading-group-dbrg-meetings&#34;&gt;Database Reading Group (DBRG) meetings&lt;/h3&gt;
+&lt;p&gt;The Database Reading Group meets weekly to discuss papers related (broadly speaking) to database technology. Meeting times are decided at the beginning of the quarter. The regular meeting place is room 130 in PSU&amp;rsquo;s Fourth Avenue Building. The group welcomes anyone, inside or outside of PSU, with an interest in the subject matter. Designated group members will lead the discussion each week. More on database reading group can be found in &lt;a href=&#34;/dbrg&#34;&gt;DBRG&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;attendance&#34;&gt;Attendance&lt;/h3&gt;
+&lt;p&gt;In-person attendance is expected for the following.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Weekly group meetings&lt;/li&gt;
+&lt;li&gt;individual meetings with Primal to discuss your research&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/dbrg&#34;&gt;Database Reading Group meetings&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://pdxscholar.library.pdx.edu/studentsymposium/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Student Research Symposiums&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Outreach events (such as &lt;a href=&#34;https://www.pdx.edu/center-for-internship-mentoring-and-research/summer-research-academy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Summer Research Academy&lt;/a&gt;, &lt;a href=&#34;https://www.pdx.edu/engineering/cyberpdx-cybersecurity-camp-native-indigenous-high-school-students&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CyberPDX&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;communication&#34;&gt;Communication&lt;/h3&gt;
+&lt;p&gt;Email and Zulip will be the primary communication mediums. This should be primarily viewed as a medium for
+asynchronous communication. If you receive a message, you are neither obligated to read nor to
+respond immediately (and you shouldn’t expect this when you’re sending, too). The expectation is that you will respond to the email within 24-48 hours.&lt;/p&gt;
+&lt;h3 id=&#34;authorship&#34;&gt;Authorship&lt;/h3&gt;
+&lt;p&gt;Authorship is earned by someone who
+significantly contributes to the project (e.g., conceives of the project, designs solution, performs
+simulations or experiments and analyzes results, writes the paper). All authors must read, proof-
+read, and sign off on the final version of the manuscript before submission.
+Barring unusual circumstances, the lab policy is that students are first-­author on all work for which they are leading.&lt;/p&gt;
+&lt;h3 id=&#34;code-management&#34;&gt;Code Management&lt;/h3&gt;
+&lt;p&gt;Code and data are important and it is your responsability to make sure that nothing is lost. Have
+a plan to make sure that your code and data are safe and accessible to other members of the group.
+We all work on related topics in the group so, we all benefit from utilizing each other code/data
+(with appropriate acknowledgement and after requesting access to it).&lt;/p&gt;
+&lt;h4 id=&#34;github&#34;&gt;GitHub&lt;/h4&gt;
+&lt;p&gt;The DIPr lab has a dedicated &lt;a href=&#34;https://github.com/DIPrLab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub account&lt;/a&gt; for hosting public repositories, including the code we create and our group website (hosted on GitHub Pages). Unless specified otherwise, all files required to reproduce research results will be made publicly available on the DIPr lab’s GitHub repository. For double-blind review cases, public access may occur post-acceptance, but every published paper will link to a public GitHub repository with the corresponding code and data.&lt;/p&gt;
+&lt;h4 id=&#34;backups&#34;&gt;Backups&lt;/h4&gt;
+&lt;p&gt;Backing up data is crucial; nothing is more disheartening than losing months of work, simulations, or code updates. Each lab member is responsible for regularly backing up their own work, and Google Drive is our recommended cloud storage solution.&lt;/p&gt;
+&lt;h4 id=&#34;ethical-management-of-data&#34;&gt;Ethical management of data&lt;/h4&gt;
+&lt;p&gt;If your research involves data related to individuals, it is essential to follow ethical guidelines. Always consult with Primal if you are uncertain about the responsible handling of such data. Ethical standards are particularly important in these situations, so reach out if you need clarification.&lt;/p&gt;
+&lt;h3 id=&#34;quarterly-evaluation-form&#34;&gt;Quarterly evaluation form&lt;/h3&gt;
+&lt;p&gt;At the end of each quarter, you will be a receiving &lt;a href=&#34;https://docs.google.com/document/d/1lGzuArWoY6KrTF1ploBmYVpMKWPPwqMJIHcMmrLhJtg/edit?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;the following evaluation form&lt;/a&gt; asking you to reflect you on your progress and your experience as a mentee. We will sit aside time during an individual meeting at the beginning of following quarter to review your answers together. This is an opportunity for you to share any concerns you may have about your experience as a graduate student, whether they involve other students, faculty, or staff.&lt;/p&gt;
+&lt;p&gt;This discussion is also a chance to address any concerns you may have about my role as your advisor. If you need more guidance, would like more independence, or would prefer more frequent meetings, please let me know. Likewise, I’ll provide feedback on your progress, noting any areas where improvement is needed so we can address them proactively. This session is our time to address any concerns early, ensuring that we’re aligned on your goals and progress.&lt;/p&gt;
+&lt;h3 id=&#34;individual-development-plans&#34;&gt;Individual Development Plans&lt;/h3&gt;
+&lt;p&gt;Primal will work with each of you to develop your individual mentoring plan that serves to ensure your time in the lab progresses your short, medium, and long-term goals. This is a useful planning document that assists in aligning expectations. Graduate students will revisit the mentoring plan during an individual meeting with Primal during multiple times in the year. Other lab members will revisit these at appropriate time scales (e.g. every 6 months). For this purpose, we will either modify a &lt;a href=&#34;https://docs.google.com/document/d/1DdQA4rMAdrPlMW7LMsE5pfBtDGZgKRBl/edit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;template&lt;/a&gt; (for all students) or use an online &lt;a href=&#34;https://myidp.sciencecareers.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tool&lt;/a&gt; (geared towards PhD students and PostDocs).&lt;/p&gt;
+&lt;h2 id=&#34;take-care-of-yourself&#34;&gt;Take care of yourself!&lt;/h2&gt;
+&lt;p&gt;As a student, you may experience a wide variety of challenges to your physical and mental health, that can interfere with learning or doing research. Help is available on campus and an important aspect of taking care of yourself is learning how to ask for help.
+Talk to Primal or any of the lab members, if you are struggling. Ask for help early. We cannot change the past, but can influence the future. Confidential &lt;a href=&#34;https://www.pdx.edu/health-counseling/counseling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;counseling services&lt;/a&gt; are available at PSU. Please refer to the &lt;a href=&#34;https://www.pdx.edu/health-counseling/sites/studenthealthcounseling.web.wdt.pdx.edu/files/2023-03/Crisis%20Cards%20-%20Counseling.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Student Crisis Resource Card&lt;/a&gt; for a list of phone numbers, contacts and support resources.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Lab Policies</title>
+      <link>/wiki/policies/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/wiki/policies/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text for my gif&#34; srcset=&#34;
+               /media/bird-flock_hu7944653659703506452.webp 400w,
+               /media/bird-flock_hu2383492516783929724.webp 760w,
+               /media/bird-flock_hu8206384986730966044.webp 1200w&#34;
+               src=&#34;/media/bird-flock_hu7944653659703506452.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;506&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h3 id=&#34;diversity-and-inclusivity-policy&#34;&gt;Diversity and Inclusivity Policy&lt;/h3&gt;
+&lt;p&gt;At DIPr lab, we also aim to build and sustain a community in which everyone feels welcomed, respected, and intellectually stimulated. It is my intent to ensure that members from diverse backgrounds, including but not limited to race, color, national origin, language, sex, disability, age, sexual orientation, gender identity, and religion, feel welcome and included in this group. If you notice that any of the interactions in this group are not respectful of this diversity, please bring it to my attention. Any suggestions on how to improve the inclusivity of the lab policies are also much appreciated. If you have experienced or observed any discrimination, please report it and/or reach out to support groups listed on PSU&amp;rsquo;s &lt;a href=&#34;https://www.pdx.edu/diversity/equity-compliance&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Equity and Compliance&lt;/a&gt; website.&lt;/p&gt;
+&lt;h3 id=&#34;reporting&#34;&gt;Reporting&lt;/h3&gt;
+&lt;p&gt;DIPr lab desires to create a safe space for everyone. If you or someone you know has been harassed by a lab member or if you have concerns, please contact Primal. If you do not wish to contact Primal, please contact the Department Chair - &lt;a href=&#34;mailto:mpj@pdx.edu&#34;&gt;Dr. Mark Jones&lt;/a&gt; or the Dean of College - &lt;a href=&#34;mailto:joseph.bull@pdx.edu&#34;&gt;Dr. Joseph Bull&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Please remember that by way of his position at the university, Primal is a mandated reporter under Title IX. This means that he is not allowed to keep matters falling under Title IX confidential, and is required to disclose these incidents to the administration. You are welcome to discuss matters with Primal, but please keep this in mind when doing so. Primal will do his best to remind you of his responsibilities at the start of conversations anticipated to relate to these topics.
+If you would rather share information about these matters with a PSU staff member who does not have these reporting responsibilities and can keep the information confidential, please use these campus resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Confidential Advocates: 503-894-7982 or schedule online (for matters regarding sexual harassment and sexual and relationship violence)&lt;/li&gt;
+&lt;li&gt;Center for Student Health and Counseling: 1880 SW 6th Avenue #200; 503-725-2800&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can also find additional resources on &lt;a href=&#34;https://www.pdx.edu/sexual-assault/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;PSU’s Sexual Misconduct Response website&lt;/a&gt;.&lt;/p&gt;
+&lt;h4 id=&#34;discrimination-and-bias-incidents&#34;&gt;Discrimination and Bias Incidents&lt;/h4&gt;
+&lt;p&gt;The Office of Equity and Compliance (OEC) addresses complaints of discrimination, discriminatory Harassment, and sexual harassment against employees (faculty and staff). If you or someone you know believes they have been discriminated against, you may file a complaint. Someone from the OEC will contact you to discuss how to best address your complaint.&lt;/p&gt;
+&lt;p&gt;The Bias Review Team (BRT) gathers information on bias incidents that happen on and around campus, and gives resources and support to individuals who experience them. You can report a bias incident you experienced or learned about. A member of the BRT will contact you if you indicate you would like to be contacted.&lt;/p&gt;
+&lt;h2 id=&#34;confidentiality-policy&#34;&gt;Confidentiality Policy&lt;/h2&gt;
+&lt;p&gt;All communications within DIPr lab, including emails, discussions, and meetings involving research data or methodologies, should be treated with care and kept confidential. Information should only be shared using secure methods, and with third parties only after obtaining permission from the principal investigator or project leader. Public sharing of research findings should be coordinated with the prinicipal investigator. This policy is intended to ensure the integrity of our work and applies during and after involvement with the research group.&lt;/p&gt;
+&lt;h2 id=&#34;privacy-policy&#34;&gt;Privacy Policy&lt;/h2&gt;
+&lt;p&gt;The privacy of all members and collaborators of DIPr lab is respected and protected. Personal information, such as contact details and other identifying data, will be used solely for professional and administrative purposes and will not be shared with third parties without consent. Data collected as part of research will be handled in compliance with ethical standards and legal regulations, ensuring that participant identities are safeguarded, and that personal information remains confidential. Members of the research group are expected to handle any personal data they encounter in a manner that respects the privacy of all individuals involved in the research.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Offboarding</title>
+      <link>/wiki/offboarding/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/wiki/offboarding/</guid>
+      <description>&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text for my gif&#34; srcset=&#34;
+               /media/bird-flying-away_hu14806664578354133516.webp 400w,
+               /media/bird-flying-away_hu9261922301974223104.webp 760w,
+               /media/bird-flying-away_hu1419810120524350741.webp 1200w&#34;
+               src=&#34;/media/bird-flying-away_hu14806664578354133516.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;507&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Everyone will eventually move on from the lab—whether it’s to complete a degree, start a job, or pursue new opportunities, which is an exciting time! A clear offboarding process ensures that your work can seamlessly continue, that future collaborators have what they need, and that any remaining steps (e.g., publications, future projects) are clearly outlined.&lt;/p&gt;
+&lt;p&gt;(Credits to &lt;a href=&#34;https://thefaylab.github.io/lab-manual/06-offboarding.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Fay lab&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&#34;exit-interview&#34;&gt;Exit Interview&lt;/h2&gt;
+&lt;p&gt;Set up a dedicated time to meet with Primal to talk about your time in the lab, and to go through the below checklist to make sure these have been done. Besides the checklist, things to talk about include the best part of being in our team, whether you got the support you needed and what could we improve for mentoring and training someone in your role in the future.&lt;/p&gt;
+&lt;h2 id=&#34;project-documentation&#34;&gt;Project Documentation&lt;/h2&gt;
+&lt;p&gt;Project work should be hosted either in a repository under the organizational GitHub account.&lt;/p&gt;
+&lt;p&gt;Each project should have an easily found README text file that provides information for others so they can navigate and use your work, and give contact information for authors (and any data creators/use restrictions if propietary data). Ideally, the README should also include links to publications and presentations from the work.&lt;/p&gt;
+&lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
+&lt;p&gt;Science is not finished until it has been communicated. Ideally, you’ll have the chance to publish your results in a conference or journal. In your exit interview, coordinate with Primal on any remaining publications and set a submission timeline. Ensure that all publications and presentations from your projects are archived in the appropriate folder on the lab’s Google Drive and are listed on the lab website where appropriate.&lt;/p&gt;
+&lt;h2 id=&#34;equipment&#34;&gt;Equipment&lt;/h2&gt;
+&lt;p&gt;Ensure any lab equipment (e.g. computer and peripherals) you have been using has been returned to the lab, office furniture is present. Make sure any problems with equipment are documented and that Primal and relevant department staff so that they can be addressed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>References</title>
+      <link>/wiki/references/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>/wiki/references/</guid>
+      <description>&lt;p&gt;Some of the content in this wiki is inspired by similar wikis from labs.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://atomslab.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ATOMS lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://damslabumbc.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DAMS lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://poldracklab.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Poldrack lab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://thefaylab.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Faylab&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dylan Conklin | DIPr Lab at PSU</title>
+    <link>/author/dylan-conklin/</link>
+      <atom:link href="/author/dylan-conklin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Dylan Conklin</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/author/dylan-conklin/avatar_hu16513504031191781910.png</url>
+      <title>Dylan Conklin</title>
+      <link>/author/dylan-conklin/</link>
+    </image>
+    
+    <item>
+      <title>Blue Crab</title>
+      <link>/project/bluecrab/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/project/bluecrab/</guid>
+      <description>&lt;p&gt;Blue Crab is a mobile app based on Flutter, which combines GPS with Bluetooth scanning to detect unwanted trackers. Its purpose is to experiment with alternative methods to prevent unwanted trackers by taking a proactive approach, allowing users to see a report about all the devices of concern around them&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aamir Hamid, Hemanth Reddy Samidi, Tim Finin, Primal Pappachan, Roberto Yus | DIPr Lab at PSU</title>
+    <link>/author/aamir-hamid-hemanth-reddy-samidi-tim-finin-primal-pappachan-roberto-yus/</link>
+      <atom:link href="/author/aamir-hamid-hemanth-reddy-samidi-tim-finin-primal-pappachan-roberto-yus/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aamir Hamid, Hemanth Reddy Samidi, Tim Finin, Primal Pappachan, Roberto Yus</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 00:33:44 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu11534601174274055989.png</url>
+      <title>Aamir Hamid, Hemanth Reddy Samidi, Tim Finin, Primal Pappachan, Roberto Yus</title>
+      <link>/author/aamir-hamid-hemanth-reddy-samidi-tim-finin-primal-pappachan-roberto-yus/</link>
+    </image>
+    
+    <item>
+      <title>GenAIPABench: A Benchmark for Generative AI-based Privacy Assistants</title>
+      <link>/publication/genaipa/</link>
+      <pubDate>Thu, 01 Jan 1970 00:33:44 +0000</pubDate>
+      <guid>/publication/genaipa/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

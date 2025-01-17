@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Grace Hunter | DIPr Lab at PSU</title>
+    <link>/author/grace-hunter/</link>
+      <atom:link href="/author/grace-hunter/index.xml" rel="self" type="application/rss+xml" />
+    <description>Grace Hunter</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/author/grace-hunter/avatar_hu13948135638077095966.jpeg</url>
+      <title>Grace Hunter</title>
+      <link>/author/grace-hunter/</link>
+    </image>
+    
+    <item>
+      <title>Accord</title>
+      <link>/project/accord/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/project/accord/</guid>
+      <description>&lt;p&gt;Users are increasingly adopting collaborative cloud services like Google Drive.
+The lack of fine-grained access controls on many cloud services make actions that violate the expectations of other users likely, resulting in multiuser conflicts.
+For example, a user with editor permissions may add a user outside the organization and revoke the permissions of another user, all without consent from the original resource owner.
+These multiuser conflicts may compromise a resource&amp;rsquo;s confidentiality, integrity, or availability, leading to a lack of trust in cloud services.&lt;/p&gt;
+&lt;p&gt;ACCORD is a web application built on top of Google Drive which prevents and detects multiuser conflicts.
+It employs a simulator to help users preemptively identify potential conflicts and
+assist them in defining action constraints.
+Then, using these action constraints, ACCORD can automatically detect future conflicts and suggest resolutions.&lt;/p&gt;
+&lt;p&gt;Currently, we are testing the scalability and practicality of ACCORD with larger numbers of users and resources.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

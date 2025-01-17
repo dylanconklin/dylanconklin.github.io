@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lakshmi Sahithi | DIPr Lab at PSU</title>
+    <link>/author/lakshmi-sahithi/</link>
+      <atom:link href="/author/lakshmi-sahithi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lakshmi Sahithi</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>/author/lakshmi-sahithi/avatar_hu4686843285361845225.png</url>
+      <title>Lakshmi Sahithi</title>
+      <link>/author/lakshmi-sahithi/</link>
+    </image>
+    
+  </channel>
+</rss>

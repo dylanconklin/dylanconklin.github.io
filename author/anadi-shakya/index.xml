@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anadi Shakya | DIPr Lab at PSU</title>
+    <link>/author/anadi-shakya/</link>
+      <atom:link href="/author/anadi-shakya/index.xml" rel="self" type="application/rss+xml" />
+    <description>Anadi Shakya</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/author/anadi-shakya/avatar_hu1800334067034603686.png</url>
+      <title>Anadi Shakya</title>
+      <link>/author/anadi-shakya/</link>
+    </image>
+    
+    <item>
+      <title>Sieve</title>
+      <link>/project/sieve/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/project/sieve/</guid>
+      <description>&lt;p&gt;SIEVE is a versatile middleware that enhances access control in DBMS, enabling efficient query processing even with a large number of access control policies. We&amp;rsquo;re currently integrating caching to further improve query performance. Additionally, we&amp;rsquo;ve developed a workload generator that simulates various scenarios to test policy models and ensure access control compliance, reflecting real-world conditions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

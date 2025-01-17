@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Satvik Mudgal | DIPr Lab at PSU</title>
+    <link>/author/satvik-mudgal/</link>
+      <atom:link href="/author/satvik-mudgal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Satvik Mudgal</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>/author/satvik-mudgal/avatar_hu5497726659780051408.png</url>
+      <title>Satvik Mudgal</title>
+      <link>/author/satvik-mudgal/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Policies | DIPr Lab at PSU</title>
+    <link>/tag/policies/</link>
+      <atom:link href="/tag/policies/index.xml" rel="self" type="application/rss+xml" />
+    <description>Policies</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/media/icon_hu11534601174274055989.png</url>
+      <title>Policies</title>
+      <link>/tag/policies/</link>
+    </image>
+    
+    <item>
+      <title>Securing IoT Communication Protocols at Scale</title>
+      <link>/project/pubsubcontrol/</link>
+      <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/project/pubsubcontrol/</guid>
+      <description>&lt;p&gt;The world of the connected “Internet of Things” is expanding to include more devices which observe our daily lives, routines, locations, and even our state of health. But have the underlying protocols by which they communicate this data kept pace with the need to protect our privacy and security?&lt;/p&gt;
+&lt;p&gt;In this project, we will investigate various “middleware” approaches to injecting dynamic access control agents into existing MQTT broker servers and measure their performance on real and/or simulated network environments as well as their resilience to security threats.&lt;/p&gt;
+&lt;p&gt;We seek to strengthen the protocols underlying the communication between IoT devices, such as MQTT, to adjudicate who is authorized to access which information, where the access parameters may rapidly and frequently change, without impacting performance, based on the implications of the MQTT message topic hierarchical structure combined with geospacial security policy “zones” and techniques to simplfy and consolidate policy rules in real time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sieve</title>
+      <link>/project/sieve/</link>
+      <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>/project/sieve/</guid>
+      <description>&lt;p&gt;SIEVE is a versatile middleware that enhances access control in DBMS, enabling efficient query processing even with a large number of access control policies. We&amp;rsquo;re currently integrating caching to further improve query performance. Additionally, we&amp;rsquo;ve developed a workload generator that simulates various scenarios to test policy models and ensure access control compliance, reflecting real-world conditions.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

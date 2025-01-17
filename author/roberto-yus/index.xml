@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roberto Yus | DIPr Lab at PSU</title>
+    <link>/author/roberto-yus/</link>
+      <atom:link href="/author/roberto-yus/index.xml" rel="self" type="application/rss+xml" />
+    <description>Roberto Yus</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>/author/roberto-yus/avatar_hu2716246771141542029.png</url>
+      <title>Roberto Yus</title>
+      <link>/author/roberto-yus/</link>
+    </image>
+    
+  </channel>
+</rss>

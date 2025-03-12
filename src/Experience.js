@@ -69,7 +69,11 @@ export default function Experience() {
                         />
                         <Component.TechSkill
                             skill="Flutter"
-                            label="fa-solid fa-feather-pointed"
+                            label="fa-brands fa-flutter"
+                        />
+                        <Component.TechSkill
+                            skill="Java"
+                            label="fa-brands fa-java"
                         />
                         <Component.TechSkill
                             skill="React (HTML, CSS, JS)"

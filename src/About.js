@@ -35,7 +35,7 @@ export default function About() {
                     testflightLink={null}
                     github={"https://github.com/DIPrLab/BLuE-CRAB"}
                     youtubeLink={"https://www.youtube.com/watch?v=J9vjPuSkJyU"}
-                    image="images/blue-crab-logo.jpg"
+                    image="images/blue-crab-logo.png"
                     caption="Flutter"
                     description="BL(u)E CRAB is an app for detecting unwanted Bluetooth trackers. It provides a dynamic approach to assesing risk by utilizing various risk factors, so users have greater control over evaluating the potential risk presented by nearby Bluetooth trackers."
                 />

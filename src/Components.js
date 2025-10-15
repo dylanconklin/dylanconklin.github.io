@@ -98,7 +98,7 @@ function Button({ link, label, primary = false }) {
 }
 
 function Certification({ cert, type, time, label }) {
-    label += " fa-5x icon"
+    label += " fa-5x icon p-3"
     return (
         <>
             <div className="card mb-3">
@@ -123,6 +123,39 @@ function Certification({ cert, type, time, label }) {
     )
 }
 
+function PublishedWork({ title, type, time, link }) {
+    return (
+        <>
+            <div className="card mb-3">
+                <div className="row g-0">
+                    <div className="col-md-3 center">
+                        <i className="fa-solid fa-book fa-5x icon p-3" />
+                    </div>
+                    <div className="card-body col-md-9 box">
+                        <h2 className="card-title">
+                            {title}
+                        </h2>
+                        <div className="secondary">
+                            {type}
+                        </div>
+                        <p className="card-text">
+                            {time}
+                        </p>
+                        <Button
+                            link={link}
+                            label={<>
+                                <i className="fa-solid fa-file p-1" />
+                                PDF
+                            </>}
+                            primary={false}
+                        />
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
 function Education({ school, degree }) {
     let degrees = degree.map(function (degree) {
         return <>
@@ -139,7 +172,7 @@ function Education({ school, degree }) {
             <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-4 center">
-                        <i className="fa-solid fa-graduation-cap fa-5x icon center" />
+                        <i className="fa-solid fa-graduation-cap fa-5x icon center p-3" />
                     </div>
                     <div className="card-body col-md-8 box">
                         <h2 className="card-title">
@@ -168,7 +201,7 @@ function Job({ position, employer, time, responsibilities }) {
         <>
             <div className="card m-3">
                 <div className="row g-0">
-                    <div className="card-body col-md-4">
+                    <div className="card-body col-md-3">
                         <h2 className="card-title">
                             {position}
                         </h2>
@@ -179,7 +212,7 @@ function Job({ position, employer, time, responsibilities }) {
                             {time}
                         </p>
                     </div>
-                    <div className="card-body col-md-8 box">
+                    <div className="card-body col-md-9 box">
                         <h2 className="card-title">
                             Responsibilities
                         </h2>
@@ -194,7 +227,7 @@ function Job({ position, employer, time, responsibilities }) {
 }
 
 function TechSkill({ skill, label }) {
-    label += " fa-5x icon center"
+    label += " fa-5x icon center p-3"
     return (
         <>
             <div className="col m-3">
@@ -210,6 +243,7 @@ export { AppCard };
 export { BioCard };
 export { Button };
 export { Certification };
+export { PublishedWork };
 export { Education };
 export { H1 };
 export { Job };

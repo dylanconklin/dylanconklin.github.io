@@ -60,6 +60,13 @@ export default function Experience() {
                         </div>
                     </div>
                 </div>
+                <Component.H1 content="Published Works" />
+                <Component.PublishedWork
+                    title="BL(u)E CRAB: A User-Centric Framework for Identifying Suspicious Bluetooth Trackers"
+                    type="Demo Paper"
+                    time="2025"
+                    link="https://diprlab.github.io/post/18-03-25-percom/BLuE_CRAB_Demo_Paper.pdf"
+                />
                 <Component.H1 content="Tech Skills" />
                 <div className="text-center">
                     <div className="row">

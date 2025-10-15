@@ -48,18 +48,13 @@ function Header() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" href="https://www.linkedin.com/in/dylan-conklin-152a07186/" target="_blank" rel="noreferrer">
+                                    <a className="dropdown-item" href="www.linkedin.com/in/dylan-conklin" target="_blank" rel="noreferrer">
                                         LinkedIn
                                     </a>
                                 </li>
                                 <li>
                                     <a className="dropdown-item" href="https://forms.gle/wAZ27RB7i295UK2K7" target="_blank" rel="noreferrer">
                                         Contact Form
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="https://dylanconklin.youcanbook.me" target="_blank" rel="noreferrer">
-                                        Schedule Meeting
                                     </a>
                                 </li>
                             </ul>
@@ -82,15 +77,11 @@ function Footer() {
                     />
                     <SocialMediaLink
                         icon="fa-brands fa-linkedin-in fa-2x"
-                        link="https://www.linkedin.com/in/dylan-conklin-152a07186/"
+                        link="www.linkedin.com/in/dylan-conklin"
                     />
                     <SocialMediaLink
                         icon="fa-regular fa-envelope fa-2x"
                         link="https://forms.gle/wAZ27RB7i295UK2K7"
-                    />
-                    <SocialMediaLink
-                        icon="fa-regular fa-calendar fa-2x"
-                        link="https://dylanconklin.youcanbook.me/"
                     />
                 </div>
             </footer>

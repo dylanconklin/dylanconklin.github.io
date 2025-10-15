@@ -18,9 +18,21 @@ export default function About() {
                         <p>
                             I am a Research Assistant and Graduate Student at Portland State University. I have experience as a software developer, working on Portland State's SAFE team and the Data and Internet Privacy (DIPr) Lab.
                         </p>
+                        <p>
+                            My research interests include mobile app development, Bluetooth tracker networks, and data privacy.
+                        </p>
                     </>}
                 />
                 <hr />
+                <Component.AppCard
+                    title="BL(u)E CRAB"
+                    testflightLink={null}
+                    github={"https://github.com/DIPrLab/BLuE-CRAB"}
+                    youtubeLink={"https://www.youtube.com/watch?v=J9vjPuSkJyU"}
+                    image="images/blue-crab-logo.png"
+                    caption="Flutter"
+                    description="BL(u)E CRAB is an app for detecting unwanted Bluetooth trackers. It provides a dynamic approach to assesing risk by utilizing various risk factors, so users have greater control over evaluating the potential risk presented by nearby Bluetooth trackers. It leverages multiple classifiers for identifying suspicious trackers, many of which provide mechanisms for customizing the app's behavior when evaluating risk."
+                />
                 <Component.AppCard
                     title="Lineosaur"
                     testflightLink={null}
@@ -29,15 +41,6 @@ export default function About() {
                     image="images/lineosaur-logo.jpg"
                     caption="Swift, SwiftUI, SwiftData"
                     description="This powerful tool generates an adjacency table based on your data, which includes the names of various points on a map and their respective distances. With Lineosaur you can easily visualize and analyze the connections between different locations. Try it today and see how it can simplify your workflow."
-                />
-                <Component.AppCard
-                    title="BL(u)E CRAB"
-                    testflightLink={null}
-                    github={"https://github.com/DIPrLab/BLuE-CRAB"}
-                    youtubeLink={"https://www.youtube.com/watch?v=J9vjPuSkJyU"}
-                    image="images/blue-crab-logo.png"
-                    caption="Flutter"
-                    description="BL(u)E CRAB is an app for detecting unwanted Bluetooth trackers. It provides a dynamic approach to assesing risk by utilizing various risk factors, so users have greater control over evaluating the potential risk presented by nearby Bluetooth trackers."
                 />
                 <Component.AppCard
                     title="The SAFE Project"

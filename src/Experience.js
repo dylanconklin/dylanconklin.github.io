@@ -11,8 +11,8 @@ export default function Experience() {
                             school="Portland State University"
                             degree={[
                                 [
-                                    "M.S. Computer Science",
-                                    "Expected in 2026"
+                                    "M.S. Computer Science - Focus on Software Engineering",
+                                    "March 2026 - 3.93 GPA"
                                 ],
                                 [
                                     "B.S. Computer Science",
@@ -62,10 +62,16 @@ export default function Experience() {
                 </div>
                 <Component.H1 content="Published Works" />
                 <Component.PublishedWork
+                    title="BL(u)E CRAB: Bluetooth Low Energy Connection Risk Assessment Benchmarking"
+                    type="Thesis Paper"
+                    time="2026"
+                    link="https://diprlab.pdx.edu/publication/blue_crab_thesis/"
+                />
+                <Component.PublishedWork
                     title="BL(u)E CRAB: A User-Centric Framework for Identifying Suspicious Bluetooth Trackers"
                     type="Demo Paper"
                     time="2025"
-                    link="https://diprlab.github.io/post/18-03-25-percom/BLuE_CRAB_Demo_Paper.pdf"
+                    link="https://diprlab.pdx.edu/publication/blue_crab_demo/"
                 />
                 <Component.H1 content="Tech Skills" />
                 <div className="text-center">
@@ -103,7 +109,7 @@ export default function Experience() {
                         employer={<>
                             Portland State University
                             <br />
-                            <a href="https://diprlab.github.io" class="secondary">
+                            <a href="https://diprlab.pdx.edu" class="secondary">
                                 Data and Internet Privacy Lab
                             </a>
                         </>}

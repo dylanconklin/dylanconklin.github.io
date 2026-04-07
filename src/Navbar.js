@@ -48,7 +48,7 @@ function Header() {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="dropdown-item" href="www.linkedin.com/in/dylan-conklin" target="_blank" rel="noreferrer">
+                                    <a className="dropdown-item" href="https://linkedin.com/in/dylan-conklin" target="_blank" rel="noreferrer">
                                         LinkedIn
                                     </a>
                                 </li>
@@ -77,7 +77,7 @@ function Footer() {
                     />
                     <SocialMediaLink
                         icon="fa-brands fa-linkedin-in fa-2x"
-                        link="www.linkedin.com/in/dylan-conklin"
+                        link="https://linkedin.com/in/dylan-conklin"
                     />
                     <SocialMediaLink
                         icon="fa-regular fa-envelope fa-2x"

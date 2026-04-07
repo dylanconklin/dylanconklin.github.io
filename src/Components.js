@@ -62,7 +62,7 @@ function BioCard({ title, github, page, image, caption, description }) {
             <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-4 center">
-                        <img className="shadow-lg" id="portrait" src={image} alt="Photo of Dylan Conklin" />
+                        <img className="shadow-lg" id="portrait" src={image} alt="Dylan Conklin" />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
